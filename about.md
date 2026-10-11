@@ -104,9 +104,9 @@ The initiative is maintained by an active volunteer team managing speaker invita
 
   <div class="team-card">
     <div>
-      <h4>Name Surname</h4>
-      <div class="role">General Coordinator & Logistics</div>
-      <div class="affiliation">PhD Researcher in Plasma Physics<br><em>Institution / University</em></div>
+      <h4>Víctor Fernández-Pacheco Albandea</h4>
+      <div class="role">Animations and Social Media</div>
+      <div class="affiliation">PhD Researcher<br><em>CIEMAT, Spain</em></div>
     </div>
     <div class="links">
       <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
@@ -117,9 +117,9 @@ The initiative is maintained by an active volunteer team managing speaker invita
 
   <div class="team-card">
     <div>
-      <h4>Name Surname</h4>
-      <div class="role">Speaker Outreach & Hosting</div>
-      <div class="affiliation">MSc Graduate in FUSION-EP<br><em>Institution / Laboratory</em></div>
+      <h4>José Ignacio Fernández Gómez</h4>
+      <div class="role">Video Production and Editing</div>
+      <div class="affiliation">PhD Researcher<br><em>IRFM - CEA, France</em></div>
     </div>
     <div class="links">
       <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
@@ -129,9 +129,9 @@ The initiative is maintained by an active volunteer team managing speaker invita
 
   <div class="team-card">
     <div>
-      <h4>Name Surname</h4>
-      <div class="role">Audiovisual & Web Administration</div>
-      <div class="affiliation">Research Assistant<br><em>Institution / University</em></div>
+      <h4>Kris Giesbrecht</h4>
+      <div class="role">Animations and Video Production</div>
+      <div class="affiliation">PhD Researcher<br><em>Institution / University</em></div>
     </div>
     <div class="links">
       <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
@@ -142,9 +142,9 @@ The initiative is maintained by an active volunteer team managing speaker invita
 
   <div class="team-card">
     <div>
-      <h4>Name Surname</h4>
-      <div class="role">Audiovisual & Web Administration</div>
-      <div class="affiliation">Research Assistant<br><em>Institution / University</em></div>
+      <h4>Jaime Romero Picapiedra</h4>
+      <div class="role">Web Administration and Social Media</div>
+      <div class="affiliation">PhD Researcher<br><em>UC3M, Spain</em></div>
     </div>
     <div class="links">
       <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
@@ -161,31 +161,109 @@ The initiative is maintained by an active volunteer team managing speaker invita
 
 To ensure advanced fusion research is accessible across international student networks, our seminar abstracts, slide notes, and video materials are translated thanks to our dedicated volunteer translators:
 
+
 <div class="lang-block">
-  <div class="lang-title"><i class="fas fa-language"></i> Spanish / Castellano</div>
+  <div class="lang-title"><i class="fas fa-language"></i> Arabic / عربي</div>
   <p class="lang-translators">
-    <strong>Translator Name</strong> (Institution), <strong>Translator Name</strong> (Institution)
+    <strong>Ayman A. Hamada</strong> (Institution), <strong>Omar Eladarousy</strong> (Institution), <strong>Rimae Lamara Mhend</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Catalan / Català</div>
+  <p class="lang-translators">
+    <strong>Hernán Domingo Ramos</strong> (Institution), <strong>Jordi Ferre Ortega</strong> (Institution), <strong>Laura Puig</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Dutch / Nederlands</div>
+  <p class="lang-translators">
+    <strong>Wout Creyf</strong> (Institution), <strong>Alexia De Leener</strong> (Institution)
   </p>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> French / Français</div>
   <p class="lang-translators">
-    <strong>Translator Name</strong> (Institution), <strong>Translator Name</strong> (Institution)
+    <strong>Paula Cárdenas</strong> (Institution), <strong>James Conlon</strong> (Institution), <strong>Necissa Fatna Berkouk</strong> (Institution)
   </p>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> German / Deutsch</div>
   <p class="lang-translators">
-    <strong>Translator Name</strong> (Institution)
+    <strong>Felix Schwarz</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Hindi / हिंदी</div>
+  <p class="lang-translators">
+    <strong>Gaurav</strong> (Institution)
   </p>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Italian / Italiano</div>
   <p class="lang-translators">
-    <strong>Translator Name</strong> (Institution)
+    <strong>Simone Cominelli</strong> (Institution), <strong>Iside Riuzzi</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Japanese / 日本語</div>
+  <p class="lang-translators">
+    <strong>Momoko Kato</strong> (Institution), <strong>Koyo Munechika</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Macedonian / македонски</div>
+  <p class="lang-translators">
+    <strong>Sara Gjorgievska</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Mandarin / 普通话</div>
+  <p class="lang-translators">
+    <strong>Kaiyaun Hou</strong> (Institution), <strong>Peizheng Zhang</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Marathi / मराठी</div>
+  <p class="lang-translators">
+    <strong>Gaurav</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Portuguese / Português</div>
+  <p class="lang-translators">
+    <strong>Harumi</strong> (Institution), <strong>Julia Richieri</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Serbian / Српски</div>
+  <p class="lang-translators">
+    <strong>Sara Gjorgievska</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Spanish / Castellano</div>
+  <p class="lang-translators">
+    <strong>Paula Cárdenas</strong> (Institution), <strong>Jose Frontado</strong> (Institution), <strong>Gabriela María García Pérez</strong> (Institution), <strong>Steven Marin</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Turkish / Türkçe</div>
+  <p class="lang-translators">
+    <strong>Haluk Sait Aksoy</strong> (Institution)
   </p>
 </div>
 
