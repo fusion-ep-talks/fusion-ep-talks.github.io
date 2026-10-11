@@ -112,41 +112,77 @@ author_profile: false
   }
 </style>
 
-<!-- ========================================== -->
-<!-- 1. FEATURED / NEXT UPCOMING TALK           -->
-<!-- ========================================== -->
+<!-- ======================================================================= -->
+<!-- 1. DYNAMIC NEXT UPCOMING TALK FINDER                                    -->
+<!-- ======================================================================= -->
+{% assign upcoming_talks = site.posts | where_exp: "item", "item.youtube_id == nil or item.youtube_id == ''" %}
+{% assign sorted_upcoming = upcoming_talks | sort: "date" %}
+{% assign next_talk = sorted_upcoming | first %}
+
+{% if next_talk %}
 <div class="featured-talk-card">
   <span class="featured-badge">Next Upcoming Seminar</span>
   <h2 style="margin-top: 0; margin-bottom: 0.6rem; font-size: 1.5rem; color: #1e293b;">
-    Title under development
+    <a href="{{ next_talk.url | relative_url }}" style="text-decoration: none; color: inherit;">
+      {{ next_talk.title }}
+    </a>
   </h2>
   
   <p style="margin-bottom: 1rem; color: #475569; font-size: 0.95rem;">
-    📅 <strong>Date to be set, 2026 — 17:00 CEST</strong> &nbsp;|&nbsp; 
-    👤 <strong>Victor Fernandez-Pacheco Albandea</strong> (CIEMAT, Spain) &nbsp;|&nbsp;
-    📍 <em>Online via Zoom</em>
+    📅 <strong>{{ next_talk.date | date: "%B %d, %Y" }}</strong>
+    {% if next_talk.time %} — {{ next_talk.time }}{% endif %}
+    {% if next_talk.speaker %}
+      &nbsp;|&nbsp; 👤 <strong>{{ next_talk.speaker }}</strong>
+    {% endif %}
+    {% if next_talk.affiliation %}
+      <span style="color: #64748b;">({{ next_talk.affiliation }})</span>
+    {% endif %}
+    &nbsp;|&nbsp; 📍 <em>Online via Zoom</em>
   </p>
 
-  <p style="margin-bottom: 1.5rem; color: #334155; line-height: 1.6; font-size: 0.92rem;">
-    The abstract of the talk will be publish soon
-  </p>
+  {% if next_talk.excerpt %}
+  <div style="margin-bottom: 1.25rem; color: #334155; line-height: 1.6; font-size: 0.92rem;">
+    {{ next_talk.excerpt | markdownify }}
+  </div>
+  {% endif %}
 
   <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-    <a href="https://forms.google.com/tu-formulario" target="_blank" rel="noopener noreferrer" class="btn btn--primary" style="margin: 0;">
-      Register for this Talk (Free)
-    </a>
-    <a href="/talks/" class="btn btn--inverse" style="margin: 0;">
+    {% if next_talk.registration_url %}
+      <a href="{{ next_talk.registration_url }}" target="_blank" rel="noopener noreferrer" class="btn btn--primary" style="margin: 0;">
+        Register for this Talk (Free)
+      </a>
+    {% else %}
+      <a href="{{ next_talk.url | relative_url }}" class="btn btn--primary" style="margin: 0;">
+        Register & Details
+      </a>
+    {% endif %}
+    <a href="{{ '/talks/' | relative_url }}" class="btn btn--inverse" style="margin: 0;">
       Browse All Talks
     </a>
   </div>
 </div>
+{% else %}
+<!-- Fallback card displayed when all recorded talks have concluded -->
+<div class="featured-talk-card" style="border-left-color: #64748b;">
+  <span class="featured-badge" style="background-color: #64748b;">Announcements</span>
+  <h2 style="margin-top: 0; margin-bottom: 0.6rem; font-size: 1.4rem; color: #1e293b;">
+    Upcoming Seminars in Preparation
+  </h2>
+  <p style="margin-bottom: 1.2rem; color: #475569; font-size: 0.95rem;">
+    We are currently scheduling our next set of research talks. Check back soon for registration details, or explore our full library of recorded sessions.
+  </p>
+  <a href="{{ '/talks/' | relative_url }}" class="btn btn--primary" style="margin: 0;">
+    Browse Recorded Talks
+  </a>
+</div>
+{% endif %}
 
-<!-- ========================================== -->
-<!-- 2. IMPACT & COMMUNITY METRICS              -->
-<!-- ========================================== -->
+<!-- ======================================================================= -->
+<!-- 2. IMPACT & COMMUNITY METRICS                                           -->
+<!-- ======================================================================= -->
 <div class="metrics-strip">
   <div class="metric-item">
-    <strong>50+</strong>
+    <strong>{{ site.posts.size }}+</strong>
     <span>Seminars & Discussions</span>
   </div>
   <div class="metric-item">
@@ -159,9 +195,9 @@ author_profile: false
   </div>
 </div>
 
-<!-- ========================================== -->
-<!-- 3. PROJECT PILLARS / HIGHLIGHTS            -->
-<!-- ========================================== -->
+<!-- ======================================================================= -->
+<!-- 3. PROJECT PILLARS / HIGHLIGHTS                                         -->
+<!-- ======================================================================= -->
 ### What We Do
 
 <div class="features-grid">
@@ -184,15 +220,15 @@ author_profile: false
 
 ---
 
-<!-- ========================================== -->
-<!-- 4. CALL FOR SPEAKERS (BANNER)              -->
-<!-- ========================================== -->
+<!-- ======================================================================= -->
+<!-- 4. CALL FOR SPEAKERS (BANNER)                                           -->
+<!-- ======================================================================= -->
 <div class="cta-banner">
   <h3>Interested in Presenting Your Research?</h3>
   <p>
     Whether you are working on kinetic simulations, stellarator optimization, materials science, or diagnostic design, our platform welcomes PhD candidates and postdocs to share their progress.
   </p>
-  <a href="/contact/" class="btn btn--light btn--large" style="margin: 0; color: #009639; font-weight: 700;">
+  <a href="{{ '/contact/' | relative_url }}" class="btn btn--light btn--large" style="margin: 0; color: #009639; font-weight: 700;">
     Submit a Talk Proposal
   </a>
 </div>
