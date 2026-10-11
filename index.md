@@ -1,5 +1,6 @@
 ---
-layout: splash
+layout: single
+classes: wide
 title: "Fusion EP Talks"
 excerpt: "Seminars, talks and discussions over plasma physics and nuclear fusion."
 header:
@@ -13,8 +14,6 @@ header:
 author_profile: false
 ---
 
-<div style="max-width: 900px; margin: 0 auto; padding: 0 1rem;">
-
 ## Next Talk
 
 **Title of the Talk:** Random example  
@@ -22,18 +21,12 @@ author_profile: false
 **Date:** 15 de Octubre de 2026 — 17:00 CEST  
 **Site:** Online (Zoom)  
 
-Abstract of the talk:  
+Abstract of the talk:
 
-<p style="margin-top: 1rem;">
-  <a href="https://forms.google.com/tu-formulario" class="btn btn--primary btn--large">
-    Talk inscription
-  </a>
-</p>
+[Talk inscription](https://forms.google.com/tu-formulario){: .btn .btn--primary .btn--large}
 
 ---
 
 ### About the project
 
 *Fusion EP Talks* is brought to you by the alumni community of the European Master In Fusion Science and Engineering physics. Our mission is to do student-led webinars, expert talks and panels on the development of nuclear fusion as an energy source that connect scholars, engineers and enthusiasts around the world.
-
-</div>
