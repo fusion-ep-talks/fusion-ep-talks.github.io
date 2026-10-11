@@ -7,7 +7,7 @@ tags:
   - fusion
   - plasma-physics
 header:
-  teaser: /assets/images/talks_teaser/jan_m.jpg.png
+  teaser: /assets/images/talks_teaser/jan_m.jpg
 speaker: "Dr. Jan Mlynář"
 affiliation: "Czech Technical University, Czech Republic"
 youtube_id: "TrKnby0ke-I"
