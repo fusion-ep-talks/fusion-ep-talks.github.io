@@ -20,9 +20,9 @@ author_profile: false
 
 **Speaker:** Dra. Random Randomness (Institution / Lab / University)  
 
-**Fecha:** 15 de Octubre de 2026 — 17:00 CEST 
+**Date:** 15 de Octubre de 2026 — 17:00 CEST 
 
-**Lugar:** Online (Zoom)
+**Site:** Online (Zoom)
 
 Abstract of the talk: 
 
