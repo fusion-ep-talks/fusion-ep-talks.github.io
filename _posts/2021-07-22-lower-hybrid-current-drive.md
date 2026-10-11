@@ -7,8 +7,8 @@ tags:
   - fusion
   - plasma-physics
 header:
-  teaser: /assets/images/talks_teaser/daniela_teplova.png
-speaker: "Daniela Teplova"
+  teaser: /assets/images/talks_teaser/natalia_teplova.png
+speaker: "Natalia Teplova"
 affiliation: "ITMO University, Peter the Great St. Petersburg Polytechnic University, Russia"
 youtube_id: "S7l0qn8h_mI"
 
