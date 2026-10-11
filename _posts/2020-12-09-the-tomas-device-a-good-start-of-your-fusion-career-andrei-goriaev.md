@@ -7,7 +7,7 @@ tags:
   - fusion
   - plasma-physics
 header:
-  teaser: /assets/images/talks_teaser/andrei_goriaev.png
+  teaser: /assets/images/talks_teaser/andrei_goriaev_2.png
 speaker: "Andrei Goriaev"
 affiliation: "Royal Military Academy and Ghent University, Belgium"
 youtube_id: "GNqNWru1LLY"
