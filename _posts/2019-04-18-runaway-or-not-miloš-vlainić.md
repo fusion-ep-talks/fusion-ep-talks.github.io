@@ -1,15 +1,15 @@
 ---
-title: "Runaway, or not? | Miloš Vlainić"
-date: 2019-04-19
+title: "Runaway, or not?"
+date: 2019-04-18
 categories:
   - talks
 tags:
   - fusion
   - plasma-physics
 header:
-  teaser: /assets/images/talks_teaser/default_teaser.png
-speaker: "TBD"
-affiliation: "TBD"
+  teaser: /assets/images/talks_teaser/milos_vlainic.png
+speaker: "Miloš Vlainić"
+affiliation: "Institute of Physics Belgrade, Serbia"
 youtube_id: "-GbRhCWABzo"
 author_profile: false
 ---
@@ -33,12 +33,5 @@ author_profile: false
 ---
 
 ### Abstract
-Presenter: Miloš Vlainić (PhD Institute of Physics Belgrade).
+An introduction to runaway electron theory, experiments and the challenges facing ITER. 
 
-Presented: April 18th 2019 
-
-Synopsis: An introduction to runaway electron theory, experiments and the challenges facing ITER. 
-
-FusionEP talks is a student-led seminar of the European Master In Fusion Science and Engineering program (join us @ http://www.em-master-fusion.org/). 
-
-COMING UP NEXT on APRIL 18th: EKATERINA MATVEEVA on DISRUPTIONS. Join us @ [link to be added]
