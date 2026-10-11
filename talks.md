@@ -90,6 +90,36 @@ author_profile: false
     display: inline-flex;
   }
 
+  /* View Switcher (List vs Grid) */
+  .view-switcher {
+    display: inline-flex;
+    border: 1px solid #d1d5db;
+    border-radius: 9999px;
+    background-color: #ffffff;
+    padding: 2px;
+  }
+
+  .btn--view {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: #6b7280;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0.25rem 0.65rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .btn--view.active {
+    background-color: #009639;
+    color: #ffffff;
+  }
+
   /* Expandable Tag Drawer */
   .tag-drawer {
     max-height: 0;
@@ -178,22 +208,6 @@ author_profile: false
     margin-right: 0.3rem;
   }
 
-  /* Compact Talk Card Layout */
-  .talk-card {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.25rem;
-    align-items: center;
-    border-bottom: 1px solid #f0f0f0;
-    padding-bottom: 1.25rem;
-    width: 100%;
-    transition: opacity 0.2s ease;
-  }
-
-  .talk-card.is-hidden {
-    display: none !important;
-  }
-
   .talk-card-title {
     margin: 0 0 0.35rem 0;
     font-size: 1.25rem;
@@ -215,12 +229,107 @@ author_profile: false
     line-height: 1.4;
   }
 
+  .talk-card.is-hidden {
+    display: none !important;
+  }
+
   #no-talks-message {
     display: none;
     text-align: center;
     padding: 2.5rem 1rem;
     color: #6b7280;
     font-size: 1rem;
+  }
+
+  /* =========================================================================
+     LIST VIEW (Default)
+     ========================================================================= */
+  #talks-list.view--list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  #talks-list.view--list .talk-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 1.25rem;
+    width: 100%;
+    transition: opacity 0.2s ease;
+  }
+
+  #talks-list.view--list .talk-card-media {
+    flex: 0 0 350px;
+    max-width: 100%;
+    min-width: 280px;
+  }
+
+  #talks-list.view--list .talk-card-media img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    display: block;
+  }
+
+  #talks-list.view--list .talk-card-body {
+    flex: 1 1 380px;
+  }
+
+  /* =========================================================================
+     GRID VIEW
+     ========================================================================= */
+  #talks-list.view--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.75rem;
+    width: 100%;
+  }
+
+  #talks-list.view--grid .talk-card {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  #talks-list.view--grid .talk-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  }
+
+  #talks-list.view--grid .talk-card-media {
+    width: 100%;
+    flex: none;
+    max-width: none;
+    min-width: 0;
+  }
+
+  #talks-list.view--grid .talk-card-media img {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    display: block;
+  }
+
+  #talks-list.view--grid .talk-card-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
   }
 </style>
 
@@ -249,6 +358,16 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
     <button class="filter-btn btn--sort" id="btn-sort" type="button" data-order="desc">
       <span>Date:</span> <strong id="sort-label">⇣ Newest first</strong>
     </button>
+
+    <!-- View Mode Switcher -->
+    <div class="view-switcher">
+      <button class="btn--view active" id="btn-view-list" type="button" title="List View">
+        ☰ List
+      </button>
+      <button class="btn--view" id="btn-view-grid" type="button" title="Grid View">
+        ⊞ Grid
+      </button>
+    </div>
   </div>
 
   <!-- Expandable Tag Drawer -->
@@ -269,8 +388,8 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
   <p>No seminars match all selected criteria.</p>
 </div>
 
-<!-- List of Talks -->
-<div id="talks-list" style="display: flex; flex-direction: column; gap: 1.5rem; width: 100%;">
+<!-- List of Talks (Defaults to List View) -->
+<div id="talks-list" class="view--list">
 {% for post in site.posts %}
 
   {% assign is_recorded = false %}
@@ -285,50 +404,49 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
        data-tags="{{ post_tags | strip }}"
        data-date="{{ post.date | date: "%Y%m%d" }}">
     
-    <!-- Thumbnail (compacted to 220px) -->
-    <!-- Large Thumbnail Poster -->
+    <!-- Thumbnail Poster -->
     {% if post.header.teaser %}
-      <div style="flex: 0 0 350px; max-width: 100%; min-width: 280px;">
+      <div class="talk-card-media">
         <a href="{{ post.url | relative_url }}">
           <img src="{{ post.header.teaser | relative_url }}" 
-               alt="{{ post.title }}" 
-               style="width: 100%; border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12); object-fit: cover; aspect-ratio: 16/9; display: block;">
+               alt="{{ post.title }}">
         </a>
       </div>
     {% endif %}
 
-    <!-- Card Content Container -->
-    <div style="flex: 1 1 380px;">
-      
-      {% if is_recorded %}
-        <span class="status-badge status-badge--recorded">Recorded</span>
-      {% else %}
-        <span class="status-badge status-badge--upcoming">Upcoming</span>
-      {% endif %}
-
-      <h2 class="talk-card-title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h2>
-      
-      <!-- Primary Metadata Line -->
-      <p class="talk-card-meta">
-        📅 {{ post.date | date: "%B %d, %Y" }}
-        {% if post.speaker %}
-          &nbsp;|&nbsp; 👤 <strong>{{ post.speaker }}</strong>
+    <!-- Card Details -->
+    <div class="talk-card-body">
+      <div>
+        {% if is_recorded %}
+          <span class="status-badge status-badge--recorded">Recorded</span>
+        {% else %}
+          <span class="status-badge status-badge--upcoming">Upcoming</span>
         {% endif %}
-        {% if post.affiliation %}
-          <span style="color: #6b7280;">({{ post.affiliation }})</span>
-        {% endif %}
-      </p>
 
-      <!-- Topic Tags -->
-      {% if post.tags and post.tags.size > 0 %}
-        <div style="margin-bottom: 0.65rem;">
-          {% for tag in post.tags %}
-            <span class="post-tag">#{{ tag }}</span>
-          {% endfor %}
-        </div>
-      {% endif %}
+        <h2 class="talk-card-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        
+        <!-- Primary Metadata Line -->
+        <p class="talk-card-meta">
+          📅 {{ post.date | date: "%B %d, %Y" }}
+          {% if post.speaker %}
+            &nbsp;|&nbsp; 👤 <strong>{{ post.speaker }}</strong>
+          {% endif %}
+          {% if post.affiliation %}
+            <span style="color: #6b7280;">({{ post.affiliation }})</span>
+          {% endif %}
+        </p>
+
+        <!-- Topic Tags -->
+        {% if post.tags and post.tags.size > 0 %}
+          <div style="margin-bottom: 0.65rem;">
+            {% for tag in post.tags %}
+              <span class="post-tag">#{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
 
       <!-- Action Button -->
       <div>
@@ -348,7 +466,7 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
 {% endfor %}
 </div>
 
-<!-- Sorter, Multi-Select & Drawer Logic -->
+<!-- Sorter, View Switcher, Multi-Select & Drawer Logic -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const toggleBtn = document.getElementById("toggle-tags-btn");
@@ -360,24 +478,50 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
     const sortBtn = document.getElementById("btn-sort");
     const sortLabel = document.getElementById("sort-label");
 
+    const btnList = document.getElementById("btn-view-list");
+    const btnGrid = document.getElementById("btn-view-grid");
+    const talksContainer = document.getElementById("talks-list");
+
     const statusButtons = document.querySelectorAll("[data-status]");
     const tagPills = document.querySelectorAll(".tag-pill");
-    const talksContainer = document.getElementById("talks-list");
     let talkCards = Array.from(document.querySelectorAll(".talk-card"));
     const noResultsMsg = document.getElementById("no-talks-message");
 
     let currentStatus = "all";
     let activeTags = new Set();
-    let sortOrder = "desc"; // "desc" = newest first, "asc" = oldest first
+    let sortOrder = "desc";
 
-    // 1. Toggle Drawer
+    // 1. View Switcher (List vs Grid) with LocalStorage persistence
+    const savedView = localStorage.getItem("talks_view_mode") || "list";
+    setViewMode(savedView);
+
+    btnList.addEventListener("click", () => setViewMode("list"));
+    btnGrid.addEventListener("click", () => setViewMode("grid"));
+
+    function setViewMode(mode) {
+      if (mode === "grid") {
+        talksContainer.classList.remove("view--list");
+        talksContainer.classList.add("view--grid");
+        btnGrid.classList.add("active");
+        btnList.classList.remove("active");
+        localStorage.setItem("talks_view_mode", "grid");
+      } else {
+        talksContainer.classList.remove("view--grid");
+        talksContainer.classList.add("view--list");
+        btnList.classList.add("active");
+        btnGrid.classList.remove("active");
+        localStorage.setItem("talks_view_mode", "list");
+      }
+    }
+
+    // 2. Toggle Drawer
     toggleBtn.addEventListener("click", function () {
       const isOpen = tagDrawer.classList.toggle("is-open");
       toggleBtn.classList.toggle("open", isOpen);
       toggleIndicator.textContent = isOpen ? "▴" : "▾";
     });
 
-    // 2. Status Buttons
+    // 3. Status Filters
     statusButtons.forEach(btn => {
       btn.addEventListener("click", function () {
         const selected = this.getAttribute("data-status");
@@ -396,7 +540,7 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
       });
     });
 
-    // 3. Multi-Select Tags
+    // 4. Multi-Select Tags
     tagPills.forEach(pill => {
       pill.addEventListener("click", function () {
         const tag = this.getAttribute("data-tag").toLowerCase();
@@ -415,7 +559,7 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
       });
     });
 
-    // 4. Date Sorting
+    // 5. Date Sorting
     sortBtn.addEventListener("click", function () {
       sortOrder = (sortOrder === "desc") ? "asc" : "desc";
       sortBtn.setAttribute("data-order", sortOrder);
@@ -430,11 +574,10 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
         return (sortOrder === "desc") ? (dateB - dateA) : (dateA - dateB);
       });
 
-      // Re-append sorted elements into the DOM container
       talkCards.forEach(card => talksContainer.appendChild(card));
     }
 
-    // 5. Clear Filters
+    // 6. Clear Filters
     clearBtn.addEventListener("click", resetAllFilters);
 
     function resetAllFilters() {
@@ -465,7 +608,7 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
       }
     }
 
-    // 6. Apply Filter Visibility
+    // 7. Apply Filter Visibility
     function applyFilters() {
       let visibleCount = 0;
       const isFiltered = currentStatus !== "all" || activeTags.size > 0;
@@ -500,7 +643,7 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
       noResultsMsg.style.display = visibleCount === 0 ? "block" : "none";
     }
 
-    // 7. BFCache Fix
+    // 8. BFCache Fix
     window.addEventListener("pageshow", function (event) {
       if (event.persisted) {
         resetAllFilters();
