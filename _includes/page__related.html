@@ -1,12 +1,15 @@
-{% assign locale = include.locale | default: site.locale %}
-{% assign posts = include.posts | where_exp: "post", "post.hidden != true" %}
+{% assign same_cat = site.posts | where_exp: "item", "item.categories contains page.categories[0]" %}
+{% assign related_posts = site.related_posts | default: same_cat | default: site.posts %}
+
 <div class="page__related">
-  {% include before-related.html %}
-  <h2 class="page__related-title">{{ site.data.ui-text[locale].related_label | default: "You May Also Enjoy" }}</h2>
+  <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
   <div class="grid__wrapper">
-    {% for post in posts limit:4 %}
-      {% if post.id == page.id %}{% continue %}{% endif %}
-      {% include archive-single.html locale=locale type="grid" %}
+    {% assign count = 0 %}
+    {% for post in site.posts %}
+      {% if post.id != page.id and count < 6 %}
+        {% include archive-single.html type="grid" %}
+        {% assign count = count | plus: 1 %}
+      {% endif %}
     {% endfor %}
   </div>
 </div>
