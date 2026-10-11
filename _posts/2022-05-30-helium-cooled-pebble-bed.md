@@ -1,5 +1,5 @@
 ---
-title: "Foundations & applications of modern data science in fusion"
+title: "Helium Cooled Pebble Bed Breeding Blanket for the European DEMO"
 date: 2022-05-30
 categories:
   - talks
