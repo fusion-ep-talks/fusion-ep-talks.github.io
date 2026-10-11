@@ -7,7 +7,7 @@ tags:
   - fusion
   - plasma-physics
 header:
-  teaser: /assets/images/talks_teaser/florian_lagner.png
+  teaser: /assets/images/talks_teaser/florian_laggner.png
 speaker: "Dr. Florian Lagner"
 affiliation: "Princeton Plasma Physics Laboratory, US"
 youtube_id: "DIKPj6MiJ1A"
