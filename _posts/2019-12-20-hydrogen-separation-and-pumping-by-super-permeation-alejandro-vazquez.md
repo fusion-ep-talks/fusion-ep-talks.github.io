@@ -1,15 +1,15 @@
 ---
-title: "Hydrogen separation and pumping by super-permeation | Alejandro Vazquez"
-date: 2019-03-21
+title: "Hydrogen separation and pumping by super-permeation"
+date: 2018-12-20
 categories:
   - talks
 tags:
   - fusion
   - plasma-physics
 header:
-  teaser: /assets/images/talks_teaser/default_teaser.png
-speaker: "TBD"
-affiliation: "TBD"
+  teaser: /assets/images/talks_teaser/alejandro_vazquez.png
+speaker: "Alejandro Vazquez"
+affiliation: "KIT, Germany"
 youtube_id: "euZX3ZpdQjo"
 author_profile: false
 ---
@@ -33,10 +33,4 @@ author_profile: false
 ---
 
 ### Abstract
-Presenter: Alejandro Vazquez (PhD candidate, Karlsruhe Institute of Technology Germany). 
-
-Date: December 20th 2018 
-
-Synopsis: An introduction to the DEMO Fuel Cycle, where the super-permeation effect fits through the Metal Foil Pump as part of the Direct Internal Recycling concept. 
-
-FusionEP talks is a student-led seminar of the European Master In Fusion Science and Engineering program (join us @ http://www.em-master-fusion.org/).
+An introduction to the DEMO Fuel Cycle, where the super-permeation effect fits through the Metal Foil Pump as part of the Direct Internal Recycling concept. 
