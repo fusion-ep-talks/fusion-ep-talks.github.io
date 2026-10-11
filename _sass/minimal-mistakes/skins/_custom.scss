@@ -192,3 +192,31 @@ a.btn--whatsapp {
     }
   }
 }
+
+/* Center and align the 'You May Also Enjoy' related posts section */
+.page__related {
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 100% !important;
+  clear: both !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  .grid__wrapper {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the related cards if there are fewer than 4 */
+    gap: 1.5rem;
+  }
+
+  .grid__item {
+    float: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: calc(33.333% - 1rem) !important; /* Clean 3-column desktop layout */
+    min-width: 250px;
+  }
+}
