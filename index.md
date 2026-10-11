@@ -115,9 +115,15 @@ author_profile: false
 <!-- ======================================================================= -->
 <!-- 1. DYNAMIC NEXT UPCOMING TALK FINDER                                    -->
 <!-- ======================================================================= -->
-{% assign upcoming_talks = site.posts | where_exp: "item", "item.youtube_id == nil or item.youtube_id == ''" %}
-{% assign sorted_upcoming = upcoming_talks | sort: "date" %}
-{% assign next_talk = sorted_upcoming | first %}
+{% assign all_sorted_posts = site.posts | sort: "date" %}
+{% assign next_talk = nil %}
+
+{% for item in all_sorted_posts %}
+  {% if item.youtube_id == nil or item.youtube_id == "" %}
+    {% assign next_talk = item %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 
 {% if next_talk %}
 <div class="featured-talk-card">
