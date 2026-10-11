@@ -193,30 +193,32 @@ a.btn--whatsapp {
   }
 }
 
-/* Center and align the 'You May Also Enjoy' related posts section */
+/* Centered 3x2 grid for Related Posts */
 .page__related {
   float: none !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin: 3rem auto 0 auto !important;
   max-width: 100% !important;
   clear: both !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  padding: 0 !important;
+
+  .page__related-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+  }
 
   .grid__wrapper {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Centers the related cards if there are fewer than 4 */
-    gap: 1.5rem;
+    margin: 0 auto !important;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+    gap: 2rem !important;
+    justify-content: center !important;
   }
 
   .grid__item {
     float: none !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    width: calc(33.333% - 1rem) !important; /* Clean 3-column desktop layout */
-    min-width: 250px;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
   }
 }
