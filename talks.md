@@ -286,18 +286,19 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
        data-date="{{ post.date | date: "%Y%m%d" }}">
     
     <!-- Thumbnail (compacted to 220px) -->
+    <!-- Large Thumbnail Poster -->
     {% if post.header.teaser %}
-      <div style="flex: 0 0 280px; max-width: 100%;">
+      <div style="flex: 0 0 350px; max-width: 100%; min-width: 280px;">
         <a href="{{ post.url | relative_url }}">
           <img src="{{ post.header.teaser | relative_url }}" 
                alt="{{ post.title }}" 
-               style="width: 100%; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); object-fit: cover; aspect-ratio: 16/9; display: block;">
+               style="width: 100%; border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.12); object-fit: cover; aspect-ratio: 16/9; display: block;">
         </a>
       </div>
     {% endif %}
 
-    <!-- Card Details -->
-    <div style="flex: 1 1 320px;">
+    <!-- Card Content Container -->
+    <div style="flex: 1 1 380px;">
       
       {% if is_recorded %}
         <span class="status-badge status-badge--recorded">Recorded</span>
