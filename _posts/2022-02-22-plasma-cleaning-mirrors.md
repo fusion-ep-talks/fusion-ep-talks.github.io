@@ -1,6 +1,6 @@
 ---
 title: "Plasma cleaning of diagnostic mirrors in ITER"
-date: 2022-05-30
+date: 2022-02-22
 categories:
   - talks
 tags:
