@@ -7,7 +7,7 @@ tags:
   - fusion
   - plasma-physics
 header:
-  teaser: /assets/images/talks_teaser/jedrzej_walkowiak.png
+  teaser: /assets/images/talks_teaser/jerdrzej_walkowiak.png
 speaker: "Dr. Jędrzej Walkowiak"
 affiliation: "Institute of Nuclear Physics Polish Academy of Sciences, Poland"
 youtube_id: "K-zdTJk240M"
