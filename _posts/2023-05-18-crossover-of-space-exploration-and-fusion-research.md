@@ -1,6 +1,6 @@
 ---
 title: "Crossover of space exploration and fusion research"
-date: 2023-05-10
+date: 2023-04-18
 categories:
   - talks
 tags:
@@ -8,7 +8,7 @@ tags:
   - plasma-physics
 header:
   teaser: /assets/images/talks_teaser/default_teaser.png
-speaker: "TBD"
+speaker: "Dr. Dmitri M. Orlov"
 affiliation: "TBD"
 youtube_id: "E6kACtBrHYY"
 author_profile: false
