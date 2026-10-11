@@ -1,6 +1,6 @@
 ---
 title: "Rethinking licensing and regulation for commercial fusion reactors"
-date: 2020-06-60
+date: 2020-06-30
 categories:
   - talks
 tags:
