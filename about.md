@@ -159,7 +159,7 @@ The initiative is maintained by an active volunteer team managing speaker invita
 
 ## Translation Team
 
-To ensure advanced fusion research is accessible across international student networks, our seminar abstracts, slide notes, and video materials are localized thanks to our dedicated volunteer translators:
+To ensure advanced fusion research is accessible across international student networks, our seminar abstracts, slide notes, and video materials are translated thanks to our dedicated volunteer translators:
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Spanish / Castellano</div>
@@ -189,7 +189,7 @@ To ensure advanced fusion research is accessible across international student ne
   </p>
 </div>
 
-> **Join the Localization Team:** Want to help translate summaries into your native language? Reach out through our [Contact page]({{ '/contact/' | relative_url }}) to contribute.
+> **Join the Translation Team:** Want to help translate summaries into your native language? Reach out through our [Contact page]({{ '/contact/' | relative_url }}) to contribute.
 
 ---
 
