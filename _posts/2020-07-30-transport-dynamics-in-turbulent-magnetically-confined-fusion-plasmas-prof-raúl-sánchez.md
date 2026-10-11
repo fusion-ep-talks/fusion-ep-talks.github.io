@@ -8,7 +8,7 @@ tags:
   - plasma-physics
 header:
   teaser: /assets/images/talks_teaser/raul_sanchez.png
-speaker: "Prof. Raúl Sánchez"
+speaker: "Prof. Dr. Raúl Sánchez"
 affiliation: "UC3M, Spain"
 youtube_id: "tVkr_n3Z_MY"
 author_profile: false
