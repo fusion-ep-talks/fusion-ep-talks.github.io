@@ -1,15 +1,15 @@
 ---
-title: "Integrated core transport modeling of NSTX plasmas using the OMFIT workflow"
-date: 2026-10-15
+title: "Stellarator optimization"
+date: 2026-10-30
 categories:
   - talks
 tags:
   - fusion
   - plasma-physics
 header:
-  teaser: /assets/images/charla.png
-speaker: "Dra. Galina Avdeeva"
-affiliation: "Oak Ridge Associated Universities (General Atomics)"
+  teaser: /assets/images/talks_teaser/victor_fernandez.png
+speaker: "Victor Fernandez-Pacheco Albandea"
+affiliation: "CIEMAT, Spain"
 start_time: "16:00"
 end_time: "17:00"
 time_display: "16:00 - 17:00 CET"
@@ -50,4 +50,4 @@ Join us live for this session. Registration is free and open to students, resear
 ---
 
 ### Abstract
-A numerical plasma modeling provides the most accurate representation of the experimental reality when various models are integrated in a way that enables the determination of the most consistent solution...
+The abstract will be posted soon…
