@@ -287,9 +287,11 @@ Explore recordings and register for upcoming seminars organized by *Fusion EP Ta
     
     <!-- Thumbnail (compacted to 220px) -->
     {% if post.header.teaser %}
-      <div style="flex: 0 0 220px; max-width: 100%;">
+      <div style="flex: 0 0 280px; max-width: 100%;">
         <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); object-fit: cover; aspect-ratio: 16/9; display: block;">
+          <img src="{{ post.header.teaser | relative_url }}" 
+               alt="{{ post.title }}" 
+               style="width: 100%; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); object-fit: cover; aspect-ratio: 16/9; display: block;">
         </a>
       </div>
     {% endif %}
