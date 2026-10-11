@@ -1,15 +1,15 @@
 ---
-title: "Find your (MHD) equilibrium | Martin Matušů"
-date: 2019-08-07
+title: "Find your (MHD) equilibrium"
+date: 2019-06-06
 categories:
   - talks
 tags:
   - fusion
   - plasma-physics
 header:
-  teaser: /assets/images/talks_teaser/default_teaser.png
-speaker: "TBD"
-affiliation: "TBD"
+  teaser: /assets/images/talks_teaser/martin_matusu.png
+speaker: "Martin Matušů"
+affiliation: "Sokendai Graduate University, Japan"
 youtube_id: "5bYNVrXACfE"
 author_profile: false
 ---
@@ -33,10 +33,4 @@ author_profile: false
 ---
 
 ### Abstract
-Presenter: Martin Matušů  – PhD candidate, SOKENDAI GRADUATE UNIVERSITY (JP). 
-
-Date: June 6th 2019 
-
-Synopsis:  An introduction to plasma equilibrium theory for tokamaks and stellarators; basic code classification and the importance of various various types of code with an emphasis on applications, e.g. tokamak operation or design of a new device.
-
-FusionEP talks is a student-led seminar of the European Master In Fusion Science and Engineering program (join us @ http://www.em-master-fusion.org/).
+An introduction to plasma equilibrium theory for tokamaks and stellarators; basic code classification and the importance of various various types of code with an emphasis on applications, e.g. tokamak operation or design of a new device.
