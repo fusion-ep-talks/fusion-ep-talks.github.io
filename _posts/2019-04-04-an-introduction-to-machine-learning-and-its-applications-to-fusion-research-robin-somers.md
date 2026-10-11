@@ -1,5 +1,5 @@
 ---
-title: "An introduction to machine learning and its applications to fusion research | Robin Somers"
+title: "An introduction to machine learning and its applications to fusion research"
 date: 2019-04-04
 categories:
   - talks
@@ -7,9 +7,9 @@ tags:
   - fusion
   - plasma-physics
 header:
-  teaser: /assets/images/talks_teaser/default_teaser.png
-speaker: "TBD"
-affiliation: "TBD"
+  teaser: /assets/images/talks_teaser/robin_somers_2.png
+speaker: "Robin Somers"
+affiliation: "Ghent University, Belgium"
 youtube_id: "hObINhsUtnM"
 author_profile: false
 ---
@@ -33,12 +33,4 @@ author_profile: false
 ---
 
 ### Abstract
-Presenter: Robin Somers (MSc candidate, Gent University, Belgium). 
-
-Presented: April 4th 2019 
-
-Synopsis: Robots, artificial intelligence, automation... Very [in]famous notions with a common basis: machine learning! Machine learning provides powerful tools to make artificial systems learn by themselves. Find out how and where to use it and learn about its applications to the world of nuclear fusion.
-
-FusionEP talks is a student-led seminar of the European Master In Fusion Science and Engineering program (join us @ http://www.em-master-fusion.org/).
-
-COMING UP NEXT on APRIL 18th: MILOS VLAINIC on RUNAWAY ELECTRONS. Join us @ https://zoom.us/j/311369243
+Robots, artificial intelligence, automation... Very [in]famous notions with a common basis: machine learning! Machine learning provides powerful tools to make artificial systems learn by themselves. Find out how and where to use it and learn about its applications to the world of nuclear fusion.
