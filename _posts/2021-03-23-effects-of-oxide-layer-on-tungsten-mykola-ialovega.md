@@ -7,7 +7,7 @@ tags:
   - fusion
   - plasma-physics
 header:
-  teaser: /assets/images/talks_teaser/mykola_ialovega.png
+  teaser: /assets/images/talks_teaser/mykola.png
 speaker: "Mykola Ialovega"
 affiliation: "IRFM - CEA, France"
 youtube_id: "74PTrJ3aqT0"
