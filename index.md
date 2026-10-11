@@ -118,17 +118,17 @@ author_profile: false
 <div class="featured-talk-card">
   <span class="featured-badge">Next Upcoming Seminar</span>
   <h2 style="margin-top: 0; margin-bottom: 0.6rem; font-size: 1.5rem; color: #1e293b;">
-    Integrated Core Transport Modeling of Spherical Tokamaks
+    Title under development
   </h2>
   
   <p style="margin-bottom: 1rem; color: #475569; font-size: 0.95rem;">
-    📅 <strong>October 15, 2026 — 17:00 CEST</strong> &nbsp;|&nbsp; 
-    👤 <strong>Dr. Full Name</strong> (Research Institution / University) &nbsp;|&nbsp;
+    📅 <strong>Date to be set, 2026 — 17:00 CEST</strong> &nbsp;|&nbsp; 
+    👤 <strong>Victor Fernandez-Pacheco Albandea</strong> (CIEMAT, Spain) &nbsp;|&nbsp;
     📍 <em>Online via Zoom</em>
   </p>
 
   <p style="margin-bottom: 1.5rem; color: #334155; line-height: 1.6; font-size: 0.92rem;">
-    An overview of advanced integrated modeling workflows, covering turbulent transport benchmarks and predictive equilibrium reconstructions for next-step fusion facilities.
+    The abstract of the talk will be publish soon
   </p>
 
   <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
