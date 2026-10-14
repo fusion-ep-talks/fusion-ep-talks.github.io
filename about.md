@@ -131,7 +131,7 @@ The initiative is maintained by an active volunteer team managing speaker invita
     <div>
       <h4>Kris Giesbrecht</h4>
       <div class="role">Animations and Video Production</div>
-      <div class="affiliation">PhD Researcher<br><em>Institution / University</em></div>
+      <div class="affiliation">PhD Researcher<br><em>UKAEA / University of York</em></div>
     </div>
     <div class="links">
       <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
