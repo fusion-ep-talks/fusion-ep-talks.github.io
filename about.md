@@ -153,6 +153,32 @@ The initiative is maintained by an active volunteer team managing speaker invita
     </div>
   </div>
 
+  <div class="team-card">
+    <div>
+      <h4>Momoko Kato</h4>
+      <div class="role">Web Administration and Social Media</div>
+      <div class="affiliation">PhD Researcher<br><em>Padova University, Italy</em></div>
+    </div>
+    <div class="links">
+      <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+
+  <div class="team-card">
+    <div>
+      <h4>Katherin Gómez</h4>
+      <div class="role">Web Administration and Social Media</div>
+      <div class="affiliation">PhD Researcher<br><em>UC3M, Spain</em></div>
+    </div>
+    <div class="links">
+      <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+
 </div>
 
 ---
