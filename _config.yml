@@ -339,4 +339,12 @@ defaults:
       comments: # true
       share: true
       related: true
+  - scope:
+      path: "templates"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
 
