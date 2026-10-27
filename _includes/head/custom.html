@@ -7,5 +7,17 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
 <!-- end custom head snippets -->
 
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Fusion EP Talks",
+  "alternateName": "Fusion EP Talks",
+  "url": "https://fusion-ep-talks.github.io/"
+}
+</script>
+{% endif %}
+
 <!-- Add to Calendar Button Script -->
 <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
