@@ -1,10 +1,13 @@
 <!-- start custom head snippets -->
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
-<!-- Custom Favicon Configuration -->
-<link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+<!-- Favicons (RealFaviconGenerator) -->
+<link rel="icon" type="image/png" href="{{ '/assets/images/favicon-96x96.png' | relative_url }}" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}" />
+<link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}" />
+<meta name="apple-mobile-web-app-title" content="Fusion EP Talks" />
+<link rel="manifest" href="{{ '/assets/images/site.webmanifest' | relative_url }}" />
+
 <!-- end custom head snippets -->
 
 {% if page.url == "/" %}
@@ -13,7 +16,7 @@
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Fusion EP Talks",
-  "alternateName": "Fusion EP Talks",
+  "alternateName": "Fusion EP",
   "url": "https://fusion-ep-talks.github.io/"
 }
 </script>
