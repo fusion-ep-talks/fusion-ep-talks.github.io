@@ -172,7 +172,8 @@ Whether you would like to present your research, receive seminar announcements, 
       </p>
       <p class="note"><em>Inquiries are typically answered within 2–3 business days.</em></p>
     </div>
-    <a href="mailto:contact@example.com" class="contact-btn contact-btn--outline">Send an Email</a>
+    <a href="mailto:talk@fusion-ep.eu" class="contact-btn contact-btn--outline">Send an Email</a>
+    <p class="note">Or write to us at <strong>talk@fusion-ep.eu</strong></p>
   </div>
 
 </div>
