@@ -159,7 +159,7 @@ Whether you would like to present your research, receive seminar announcements, 
       </p>
       <p class="note"><em>No spam. Only seminar dates and session announcements.</em></p>
     </div>
-    <a href="#" target="_blank" rel="noopener noreferrer" class="contact-btn">Subscribe to Alerts</a>
+    <a href="https://buttondown.com/fusioneptalks" target="_blank" rel="noopener noreferrer" class="contact-btn">Subscribe to Alerts</a>
   </div>
 
   <!-- General Inquiries -->
