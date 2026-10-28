@@ -234,7 +234,7 @@ author_profile: false
   <p>
     Whether you are working on kinetic simulations, stellarator optimization, materials science, or diagnostic design, our platform welcomes PhD candidates and postdocs to share their progress.
   </p>
-  <a href="{{ '/contact/' | relative_url }}" class="btn btn--light btn--large" style="margin: 0; color: #009639; font-weight: 700;">
+  <a href="{{ '/contact/' | relative_url }}" class="btn btn--light btn--large" style="margin: 0; color: #fcfcfc; font-weight: 700;">
     Submit a Talk Proposal
   </a>
 </div>
