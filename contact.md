@@ -146,7 +146,7 @@ Whether you would like to present your research, receive seminar announcements, 
         <li>Open to all plasma and fusion subfields</li>
       </ul>
     </div>
-    <a href="#" target="_blank" rel="noopener noreferrer" class="contact-btn">Propose a Talk</a>
+    <a href="https://forms.gle/cwShFC7zUmn12q2R6" target="_blank" rel="noopener noreferrer" class="contact-btn">Propose a Talk</a>
   </div>
 
   <!-- Seminar Announcements -->
