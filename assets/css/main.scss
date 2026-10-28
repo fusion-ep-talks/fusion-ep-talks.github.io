@@ -7,3 +7,9 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Logo un poco más grande en la cabecera */
+.masthead .site-logo img {
+  max-height: 3rem;
+  width: auto;
+}
