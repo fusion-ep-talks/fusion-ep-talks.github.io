@@ -196,6 +196,13 @@ To ensure advanced fusion research is accessible across international student ne
 </div>
 
 <div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Brazilian Portuguese / Português Brasileiro</div>
+  <p class="lang-translators">
+    <strong>Harumi</strong> (Institution), <strong>Julia Richieri</strong> (Institution)
+  </p>
+</div>
+
+<div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Catalan / Català</div>
   <p class="lang-translators">
     <strong>Hernán Domingo Ramos</strong> (Institution), <strong>Jordi Ferre Ortega</strong> (Institution), <strong>Laura Puig</strong> (Institution)
@@ -262,13 +269,6 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-title"><i class="fas fa-language"></i> Marathi / मराठी</div>
   <p class="lang-translators">
     <strong>Gaurav</strong> (Institution)
-  </p>
-</div>
-
-<div class="lang-block">
-  <div class="lang-title"><i class="fas fa-language"></i> Portuguese / Português</div>
-  <p class="lang-translators">
-    <strong>Harumi</strong> (Institution), <strong>Julia Richieri</strong> (Institution)
   </p>
 </div>
 
