@@ -289,7 +289,7 @@ To ensure advanced fusion research is accessible across international student ne
     <span class="translator">
       <strong>Alexia De Leener</strong>
       <span class="inst">Fusion EP</span>
-      <a class="li" href="www.linkedin.com/in/alexia-de-leener-5109b7291" target="_blank" rel="noopener noreferrer" aria-label="Alexia De Leener on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> 
+      <a class="li" href="https://www.linkedin.com/in/alexia-de-leener-5109b7291" target="_blank" rel="noopener noreferrer" aria-label="Alexia De Leener on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> 
     </span>
   </div>
 </div>
@@ -321,7 +321,7 @@ To ensure advanced fusion research is accessible across international student ne
     <span class="translator">
       <strong>Felix Schwarz</strong>
       <span class="inst">Fusion EP</span>
-      <a class="li" href="www.linkedin.com/in/-felixschwarz" target="_blank" rel="noopener noreferrer" aria-label="Felix Schwarz on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> 
+      <a class="li" href="https://www.linkedin.com/in/-felixschwarz" target="_blank" rel="noopener noreferrer" aria-label="Felix Schwarz on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> 
     </span>
   </div>
 </div>
