@@ -218,9 +218,7 @@ To ensure advanced fusion research is accessible across international student ne
   HOW TO EDIT A TRANSLATOR:
   1. Replace "Institution" with the real institution.
   2. Remove the "<!--" at the start and the "-->" at the end of the LinkedIn line.
-  3. Replace LINKEDIN-URL with the person's profile link.
-  If someone has no LinkedIn, leave the line commented out (or delete it).
--->
+  
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Arabic / عربي</div>
@@ -291,7 +289,7 @@ To ensure advanced fusion research is accessible across international student ne
     <span class="translator">
       <strong>Alexia De Leener</strong>
       <span class="inst">Fusion EP</span>
-      <a class="li" href="www.linkedin.com/in/alexia-de-leener-5109b7291" target="_blank" rel="noopener noreferrer" aria-label="Alexia De Leener on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <a class="li" href="www.linkedin.com/in/alexia-de-leener-5109b7291" target="_blank" rel="noopener noreferrer" aria-label="Alexia De Leener on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> 
     </span>
   </div>
 </div>
@@ -323,7 +321,7 @@ To ensure advanced fusion research is accessible across international student ne
     <span class="translator">
       <strong>Felix Schwarz</strong>
       <span class="inst">Fusion EP</span>
-      <a class="li" href="www.linkedin.com/in/-felixschwarz" target="_blank" rel="noopener noreferrer" aria-label="Felix Schwarz on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <a class="li" href="www.linkedin.com/in/-felixschwarz" target="_blank" rel="noopener noreferrer" aria-label="Felix Schwarz on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> 
     </span>
   </div>
 </div>
