@@ -79,10 +79,37 @@ author_profile: false
   }
 
   .lang-translators {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.5rem;
     font-size: 0.95rem;
     color: #4b5563;
     line-height: 1.5;
     margin: 0;
+  }
+
+  .translator {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .translator .inst {
+    color: #6b7280;
+    font-size: 0.85rem;
+  }
+
+  .translator .li {
+    color: #0a66c2; /* LinkedIn blue */
+    font-size: 1.1rem;
+    text-decoration: none;
+    line-height: 1;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  .translator .li:hover {
+    opacity: 0.75;
+    transform: translateY(-1px);
   }
 </style>
 
@@ -187,110 +214,247 @@ The initiative is maintained by an active volunteer team managing speaker invita
 
 To ensure advanced fusion research is accessible across international student networks, our seminar abstracts, slide notes, and video materials are translated thanks to our dedicated volunteer translators:
 
+<!--
+  HOW TO EDIT A TRANSLATOR:
+  1. Replace "Institution" with the real institution.
+  2. Remove the "<!--" at the start and the "-->" at the end of the LinkedIn line.
+  3. Replace LINKEDIN-URL with the person's profile link.
+  If someone has no LinkedIn, leave the line commented out (or delete it).
+-->
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Arabic / عربي</div>
-  <p class="lang-translators">
-    <strong>Ayman A. Hamada</strong> (Institution), <strong>Omar Eladarousy</strong> (Institution), <strong>Rimae Lamara Mhend</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Ayman A. Hamada</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Ayman A. Hamada on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Omar Eladarousy</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Omar Eladarousy on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Rimae Lamara Mhend</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Rimae Lamara Mhend on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Brazilian Portuguese / Português Brasileiro</div>
-  <p class="lang-translators">
-    <strong>Harumi</strong> (Institution), <strong>Julia Richieri</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Harumi</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Harumi on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Julia Richieri</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Julia Richieri on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Catalan / Català</div>
-  <p class="lang-translators">
-    <strong>Hernán Domingo Ramos</strong> (Institution), <strong>Jordi Ferre Ortega</strong> (Institution), <strong>Laura Puig</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Hernán Domingo Ramos</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Hernán Domingo Ramos on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Jordi Ferre Ortega</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Jordi Ferre Ortega on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Laura Puig</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Laura Puig on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Dutch / Nederlands</div>
-  <p class="lang-translators">
-    <strong>Wout Creyf</strong> (Institution), <strong>Alexia De Leener</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Wout Creyf</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Wout Creyf on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Alexia De Leener</strong>
+      <span class="inst">Fusion EP</span>
+      <a class="li" href="www.linkedin.com/in/alexia-de-leener-5109b7291" target="_blank" rel="noopener noreferrer" aria-label="Alexia De Leener on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> French / Français</div>
-  <p class="lang-translators">
-    <strong>Paula Cárdenas</strong> (Institution), <strong>James Conlon</strong> (Institution), <strong>Necissa Fatna Berkouk</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Paula Cárdenas</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Paula Cárdenas on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>James Conlon</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="James Conlon on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Necissa Fatna Berkouk</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Necissa Fatna Berkouk on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> German / Deutsch</div>
-  <p class="lang-translators">
-    <strong>Felix Schwarz</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Felix Schwarz</strong>
+      <span class="inst">Fusion EP</span>
+      <a class="li" href="www.linkedin.com/in/-felixschwarz" target="_blank" rel="noopener noreferrer" aria-label="Felix Schwarz on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Hindi / हिंदी</div>
-  <p class="lang-translators">
-    <strong>Gaurav</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Gaurav</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Gaurav on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Italian / Italiano</div>
-  <p class="lang-translators">
-    <strong>Simone Cominelli</strong> (Institution), <strong>Iside Riuzzi</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Simone Cominelli</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Simone Cominelli on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Iside Riuzzi</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Iside Riuzzi on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Japanese / 日本語</div>
-  <p class="lang-translators">
-    <strong>Momoko Kato</strong> (Institution), <strong>Koyo Munechika</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Momoko Kato</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Momoko Kato on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Koyo Munechika</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Koyo Munechika on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Macedonian / македонски</div>
-  <p class="lang-translators">
-    <strong>Sara Gjorgievska</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Sara Gjorgievska</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Sara Gjorgievska on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Mandarin / 普通话</div>
-  <p class="lang-translators">
-    <strong>Kaiyaun Hou</strong> (Institution), <strong>Peizheng Zhang</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Kaiyaun Hou</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Kaiyaun Hou on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Peizheng Zhang</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Peizheng Zhang on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Marathi / मराठी</div>
-  <p class="lang-translators">
-    <strong>Gaurav</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Gaurav</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Gaurav on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Serbian / Српски</div>
-  <p class="lang-translators">
-    <strong>Sara Gjorgievska</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Sara Gjorgievska</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Sara Gjorgievska on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Spanish / Castellano</div>
-  <p class="lang-translators">
-    <strong>Paula Cárdenas</strong> (Institution), <strong>Jose Frontado</strong> (Institution), <strong>Gabriela María García Pérez</strong> (Institution), <strong>Steven Marin</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Paula Cárdenas</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Paula Cárdenas on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Jose Frontado</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Jose Frontado on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Gabriela María García Pérez</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Gabriela María García Pérez on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+    <span class="translator">
+      <strong>Steven Marin</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Steven Marin on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Turkish / Türkçe</div>
-  <p class="lang-translators">
-    <strong>Haluk Sait Aksoy</strong> (Institution)
-  </p>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Haluk Sait Aksoy</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Haluk Sait Aksoy on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
 </div>
 
 > **Join the Translation Team:** Want to help translate summaries into your native language? Reach out through our [Contact page]({{ '/contact/' | relative_url }}) to contribute.
@@ -319,4 +483,3 @@ We believe scientific progress thrives on accessibility, transparent methodologi
 
 * **Open Access (CC BY 4.0):** All seminar recordings, summaries, and downloadable presentation slides are distributed freely under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 * **Academic Environment:** Our seminars adhere to standard academic codes of conduct, fostering an inclusive, constructive, and rigorous environment for scientific inquiry open to participants of all educational backgrounds.
-
