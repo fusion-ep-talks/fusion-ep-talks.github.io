@@ -357,11 +357,6 @@ To ensure advanced fusion research is accessible across international student ne
       <span class="inst">Institution</span>
       <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Momoko Kato on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
     </span>
-    <span class="translator">
-      <strong>Koyo Munechika</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Koyo Munechika on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
-    </span>
   </div>
 </div>
 
