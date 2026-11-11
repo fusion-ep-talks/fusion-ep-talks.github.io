@@ -214,19 +214,15 @@ The initiative is maintained by an active volunteer team managing speaker invita
 
 To ensure advanced fusion research is accessible across international student networks, our seminar abstracts, slide notes, and video materials are translated thanks to our dedicated volunteer translators:
 
-<!--
-  HOW TO EDIT A TRANSLATOR:
-  1. Replace "Institution" with the real institution.
-  2. Remove the "<!--" at the start and the "-->" at the end of the LinkedIn line.
-  
+
 
 <div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Arabic / عربي</div>
   <div class="lang-translators">
     <span class="translator">
       <strong>Ayman A. Hamada</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Ayman A. Hamada on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Sapienza University of Rome </span>
+      <a class="li" href="https://www.linkedin.com/in/ayman-a-hamada-97a29b215" target="_blank" rel="noopener noreferrer" aria-label="Ayman A. Hamada on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
     <span class="translator">
       <strong>Omar Eladarousy</strong>
