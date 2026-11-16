@@ -1,18 +1,69 @@
-- title: "Guiding-Center Motion & Magnetic Mirror Trapping"
-  category: "Particle Orbits"
-  description: "Numerical integration of single charged particle trajectories in a magnetic mirror geometry demonstrating magnetic moment conservation (mu) and pitch-angle reflection."
-  media_type: "video" # "video" or "image"
-  media_url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" # Replace with your mp4/webm/gif
-  poster_url: "/assets/images/site-preview.png"
-  code_repo: "https://github.com/jaimer118/prueba_pagina_web"
-  language: "Python"
-  citation: "Fusion EP Talks - Numerical Plasma Physics Workshop (2026)."
+# ==============================================================================
+# FUSION EP Talks - Simulation & Animation Gallery
+# File: _data/resources_visuals.yml
+#
+# While this file has no live entries, the "Simulation Gallery" section (and
+# its link in the page menu) is hidden automatically. It appears as soon as
+# you add the first entry.
+#
+# HOW TO ADD A VISUAL
+#   1. Copy the template below.
+#   2. Paste it at the end of this file (below the "LIVE ENTRIES" line).
+#   3. Remove the leading "# " from every line and fill in the values.
+#
+# FIELDS
+#   Required   : title, media_url
+#   Recommended: category, description, alt, author, language, code_repo, citation
+#   Optional   : poster_url, media_type, license, license_url, posted
+#
+#   media_url  : the video or image. Two kinds of value work:
+#                - an external link   "https://..."   (used as it is)
+#                - a file in this site "/assets/videos/orbit.mp4"
+#                  (the site's baseurl is added automatically)
+#                The type is detected from the extension: mp4, webm and ogv are
+#                videos; anything else (png, jpg, gif, svg...) is an image.
+#                Only if the extension is misleading, set media_type: "video"
+#                or "image".
+#   poster_url : preview image shown before a video plays (videos only).
+#   alt        : short description of the image for screen readers. If left
+#                out, the title is used.
+#   author     : who made it (shown on the card).
+#   license    : defaults to "CC BY 4.0" when left out. Write it ONLY when an
+#                item has a different license, e.g. "CC BY-SA 4.0" or
+#                "All rights reserved". Add license_url to link to its text.
+#   code_repo  : link to the script that generated it. The link is hidden if
+#                left out.
+#   posted     : "YYYY-MM-DD", internal only, never displayed.
+#   Fields left out or left as "" are simply not displayed.
+#
+# WHERE TO HOST MEDIA (tips)
+#   - Small files (images, short loops under ~10 MB): fine inside this
+#     repository, e.g. /assets/videos/ or /assets/images/.
+#   - Large or many videos: do not store them in the repository (GitHub blocks
+#     single files over 100 MB and Pages sites are meant to stay small). Upload
+#     them elsewhere (e.g. Zenodo, or as an attachment of a GitHub Release) and
+#     paste the direct link of the .mp4 / .webm file in media_url.
+#     A YouTube link will NOT work in media_url (it is a web page, not a file).
+#
+# Math note: avoid LaTeX such as $\nabla B$ in text unless math rendering
+# (MathJax / KaTeX) is enabled on the site. Use Unicode instead (e.g. "∇B").
+#
+# TEMPLATE:
+#
+# - title: "Guiding-Center Motion & Magnetic Mirror Trapping"
+#   category: "Particle Orbits"
+#   description: "Numerical integration of single charged particle trajectories in a magnetic mirror, showing magnetic moment conservation and pitch-angle reflection."
+#   media_url: "/assets/videos/mirror-orbit.mp4"
+#   poster_url: "/assets/images/mirror-orbit-poster.png"
+#   alt: "Animation of a charged particle bouncing between the ends of a magnetic mirror"
+#   author: "Author name"
+#   language: "Python"
+#   code_repo: "https://github.com/USER/REPO"
+#   citation: "Fusion EP Talks - Numerical Plasma Physics Workshop (2026)."
+#   license: "CC BY 4.0"
+#   license_url: ""
+#   posted: "2026-11-16"
+# ==============================================================================
 
-- title: "Poincaré Surface of Section in Non-Axisymmetric Fields"
-  category: "Magnetic Geometry"
-  description: "Puncture plot tracing field line trajectories through non-axisymmetric magnetic perturbations, visualizing nested flux surfaces, magnetic islands, and chaotic stochastic layers."
-  media_type: "image"
-  media_url: "/assets/images/site-preview.png" # Replace with your plot / gif
-  code_repo: "https://github.com/jaimer118/prueba_pagina_web"
-  language: "Python / Matplotlib"
-  citation: "Fusion EP Talks - Numerical Plasma Physics Workshop (2026)."
+# --- LIVE ENTRIES ---------------------------------------------------------------
+# (none yet: paste the template here)
