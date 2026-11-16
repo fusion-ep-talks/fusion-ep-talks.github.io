@@ -226,8 +226,8 @@ To ensure advanced fusion research is accessible across international student ne
     </span>
     <span class="translator">
       <strong>Omar Eladarousy</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Omar Eladarousy on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Universidad de Carlos III de Madrid </span>
+      <!-- <a class="li" href="https://www.linkedin.com/in/omar-eladarousy-813244212?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="Omar Eladarousy on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
     </span>
     <span class="translator">
       <strong>Rimae Lamara Mhend</strong>
