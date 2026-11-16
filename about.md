@@ -158,7 +158,7 @@ The initiative is maintained by an active volunteer team managing speaker invita
     <div>
       <h4>Kris Giesbrecht</h4>
       <div class="role">Animations and Video Production</div>
-      <div class="affiliation">PhD Researcher<br><em>UKAEA / University of York</em></div>
+      <div class="affiliation">PhD Researcher<br><em>UKAEA / University of York / Tokamak Energy</em></div>
     </div>
     <div class="links">
       <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
@@ -197,7 +197,7 @@ The initiative is maintained by an active volunteer team managing speaker invita
     <div>
       <h4>Katherin Gómez</h4>
       <div class="role">Graphic Design and Social Media</div>
-      <div class="affiliation">PhD Researcher<br><em>UC3M, Spain</em></div>
+      <div class="affiliation"><br><em></em></div>
     </div>
     <div class="links">
       <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
