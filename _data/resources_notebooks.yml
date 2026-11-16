@@ -1,0 +1,50 @@
+# ==============================================================================
+# FUSION EP Talks - Interactive Code Notebooks
+# File: _data/resources_notebooks.yml
+#
+# While this file has no live entries, the "Code Notebooks" section (and its
+# link in the page menu) is hidden automatically. It appears as soon as you
+# add the first entry.
+#
+# HOW TO ADD A NOTEBOOK
+#   1. Copy the template below.
+#   2. Paste it at the end of this file (below the "LIVE ENTRIES" line).
+#   3. Remove the leading "# " from every line and fill in the values.
+#
+# FIELDS
+#   Required   : title
+#   Recommended: language, level, description, colab_url and/or repo_url
+#   Optional   : author, license, posted
+#   - level    : one of the ids in the "levels" list of resources_library.yml
+#                ("introductory", "intermediate", "advanced")
+#   - colab_url: link that opens the notebook in Google Colab. The button is
+#                hidden if left out.
+#   - repo_url : link to the repository. The button is hidden if left out.
+#   - license  : defaults to "CC BY 4.0" when left out. Write it only if the
+#                notebook has a different license.
+#   - posted   : "YYYY-MM-DD", internal only, never displayed.
+#   Fields left out or left as "" are simply not displayed.
+#
+# TIP for colab_url: for a notebook stored in a public GitHub repository, the
+# link has this form:
+#   https://colab.research.google.com/github/USER/REPO/blob/main/path/notebook.ipynb
+#
+# TEMPLATE:
+#
+# - title: "Name of the notebook"
+#   language: "Python"
+#   level: "introductory"
+#   description: "What it computes and what the reader will learn."
+#   colab_url: "https://colab.research.google.com/github/USER/REPO/blob/main/notebook.ipynb"
+#   repo_url: "https://github.com/USER/REPO"
+#   author: "Author name"
+#   license: "CC BY 4.0"
+#   posted: "2026-11-16"
+#
+# Math note: avoid LaTeX such as $\nabla B$ in descriptions unless math
+# rendering (MathJax / KaTeX) is enabled on the site. Use plain text or
+# Unicode instead (e.g. "∇B drift").
+# ==============================================================================
+
+# --- LIVE ENTRIES ---------------------------------------------------------------
+# (none yet: paste the template here)
