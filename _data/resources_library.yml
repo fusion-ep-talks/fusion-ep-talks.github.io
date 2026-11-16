@@ -111,19 +111,9 @@ entries:
   # Examples so the page is not empty. Please check each link and description,
   # then edit or delete them.
 
-  - title: "ITER"
-    link: "https://www.iter.org/"
-    type: "website"
-    topics: ["Fusion energy overview"]
-    level: "introductory"
-    author: "ITER Organization"
-    language: "English"
-    access: "free"
-    description: "Official website of the ITER project, with news, project status and general explanations of fusion energy and tokamaks."
-    featured: true
 
   - title: "FuseNet: The European Fusion Education Network"
-    link: "https://fusenet.eu/"
+    link: "https://fusenet.eu/education/material"
     type: "website"
     topics: ["Fusion energy overview"]
     level: "introductory"
@@ -132,33 +122,14 @@ entries:
     access: "free"
     description: "Information on fusion education in Europe, including training opportunities and student mobility funding."
 
-  - title: "Introduction to Plasma Physics and Controlled Fusion"
-    link: "https://link.springer.com/book/10.1007/978-3-319-22309-4"
-    type: "book"
-    topics: ["Plasma basics"]
-    level: "introductory"
-    author: "Francis F. Chen"
-    language: "English"
-    access: "paywalled"
-    description: "Classic textbook introducing plasma physics and its application to controlled fusion."
-    featured: true
-
-  - title: "Matt Landreman: slides and talks"
-    link: "https://terpconnect.umd.edu/~mattland/presentations"
+  - title: "UMD Stellarator Group: Resources for learning about stellarators"
+    link: "https://terpconnect.umd.edu/~mattland/resources/"
     type: "website"
     topics: ["Stellarators", "Turbulence", "Computational methods"]
     level: "advanced"
-    author: "Matt Landreman (University of Maryland)"
+    author: "UMD Stellarator Group"
     language: "English"
     access: "free"
     description: "Slides, and some videos, of talks on stellarator optimization, plasma turbulence and numerical methods."
 
-  - title: "SIMSOPT"
-    link: "https://github.com/hiddenSymmetries/simsopt"
-    type: "software"
-    topics: ["Stellarators", "Computational methods"]
-    level: "advanced"
-    author: "Hidden Symmetries collaboration"
-    language: "English"
-    access: "free"
-    description: "Open-source framework for stellarator optimization, with tools to define parameter spaces and objective functions and interfaces to physics codes."
+  
