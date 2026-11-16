@@ -451,8 +451,8 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Haluk Sait Aksoy</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Haluk Sait Aksoy on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Nanyang Technological University Singapore</span>
+      <a class="li" href="https://www.linkedin.com/in/halukaksoy/" target="_blank" rel="noopener noreferrer" aria-label="Haluk Sait Aksoy on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
 </div>
