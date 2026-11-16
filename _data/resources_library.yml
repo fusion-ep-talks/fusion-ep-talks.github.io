@@ -1,0 +1,164 @@
+# ==============================================================================
+# FUSION EP Talks - Learning Library
+# File: _data/resources_library.yml
+#
+# This file has FOUR parts:
+#   1. topics   -> the topic filter buttons on the page
+#   2. types    -> the kinds of resource (shown as a badge and a dropdown)
+#   3. levels   -> introductory / intermediate / advanced
+#   4. entries  -> the actual resources (this is the part you edit most)
+#
+# The page is built from this file: if you change a list below, the page
+# changes automatically. No other file needs to be edited.
+# ==============================================================================
+
+
+# ------------------------------------------------------------------------------
+# 1. TOPICS  (filter buttons, shown in this order)
+#
+# HOW TO CHANGE THEM
+#   - Add a topic    : add a new line "  - "Name"" to the list.
+#   - Remove a topic : delete its line. Entries that still use it keep showing
+#                      the topic as a small tag, but there will be no button
+#                      to filter by it.
+#   - Rename a topic : change it here AND in every entry that uses it
+#                      (use your editor's "find and replace" on the old name).
+#   - Entries must write the topic EXACTLY as it appears here (same spelling,
+#     capitals and symbols). An entry can have several topics.
+# ------------------------------------------------------------------------------
+topics:
+  - "Plasma basics"
+  - "MHD & equilibrium"
+  - "Transport"
+  - "Turbulence"
+  - "Stellarators"
+  - "Heating & current drive"
+  - "Diagnostics"
+  - "Materials & technology"
+  - "Computational methods"
+  - "Fusion energy overview"
+
+
+# ------------------------------------------------------------------------------
+# 2. TYPES  (format:   id: "Label shown on the page")
+#
+# Entries use the id on the left (lowercase, no spaces) in their "type" field.
+#   - Add a type    : add a line, e.g.   podcast: "Podcast"
+#   - Rename a label: change only the text between quotes (ids stay the same,
+#                     so no entry needs editing).
+#   - Remove a type : delete its line (entries using it will show the generic
+#                     label "Resource", so change those entries first).
+# ------------------------------------------------------------------------------
+types:
+  website: "Website"
+  video: "Video / Channel"
+  course: "Course"
+  notes: "Lecture notes"
+  book: "Book"
+  paper: "Paper / Review"
+  software: "Software / Code"
+  dataset: "Dataset"
+  tool: "Online tool"
+
+
+# ------------------------------------------------------------------------------
+# 3. LEVELS  (same format as types; also used by the code notebooks)
+# ------------------------------------------------------------------------------
+levels:
+  introductory: "Introductory"
+  intermediate: "Intermediate"
+  advanced: "Advanced"
+
+
+# ------------------------------------------------------------------------------
+# 4. ENTRIES
+#
+# HOW TO ADD A RESOURCE
+#   1. Copy the template below.
+#   2. Paste it at the end of the "entries:" list (keep the 2-space indent
+#      exactly as in the template; the order of entries does not matter,
+#      the page sorts them A-Z, with "featured" ones first).
+#   3. Remove the leading "# " from every line and fill in the values.
+#
+# FIELDS
+#   Required   : title, link, type
+#   Recommended: topics, level, description, author
+#   Optional   : language   (default "English"; write it in English: "Spanish",
+#                            "French"...)
+#                access     ("free" | "paywalled" | "registration")
+#                featured   (true = pinned at the top with a "Start here" badge;
+#                            use sparingly, for the best beginner resources)
+#                last_checked (YYYY-MM-DD, internal only, never displayed)
+#   Fields left out or left as "" are simply not displayed.
+#
+# TEMPLATE:
+#
+# - title: "Name of the resource"
+#   link: "https://example.org/resource"
+#   type: "website"                 # one of the ids in the "types" list above
+#   topics: ["Plasma basics"]       # one or several, e.g. ["Transport", "Turbulence"]
+#   level: "introductory"           # one of the ids in the "levels" list above
+#   author: "Person, group or institution"
+#   language: "English"
+#   access: "free"
+#   description: "One or two sentences: what it covers and who it is useful for."
+#   featured: false
+#   last_checked: "2026-11-16"
+# ------------------------------------------------------------------------------
+entries:
+
+  # --- STARTER ENTRIES -------------------------------------------------------
+  # Examples so the page is not empty. Please check each link and description,
+  # then edit or delete them.
+
+  - title: "ITER"
+    link: "https://www.iter.org/"
+    type: "website"
+    topics: ["Fusion energy overview"]
+    level: "introductory"
+    author: "ITER Organization"
+    language: "English"
+    access: "free"
+    description: "Official website of the ITER project, with news, project status and general explanations of fusion energy and tokamaks."
+    featured: true
+
+  - title: "FuseNet: The European Fusion Education Network"
+    link: "https://fusenet.eu/"
+    type: "website"
+    topics: ["Fusion energy overview"]
+    level: "introductory"
+    author: "FuseNet"
+    language: "English"
+    access: "free"
+    description: "Information on fusion education in Europe, including training opportunities and student mobility funding."
+
+  - title: "Introduction to Plasma Physics and Controlled Fusion"
+    link: "https://link.springer.com/book/10.1007/978-3-319-22309-4"
+    type: "book"
+    topics: ["Plasma basics"]
+    level: "introductory"
+    author: "Francis F. Chen"
+    language: "English"
+    access: "paywalled"
+    description: "Classic textbook introducing plasma physics and its application to controlled fusion."
+    featured: true
+
+  - title: "Matt Landreman: slides and talks"
+    link: "https://terpconnect.umd.edu/~mattland/presentations"
+    type: "website"
+    topics: ["Stellarators", "Turbulence", "Computational methods"]
+    level: "advanced"
+    author: "Matt Landreman (University of Maryland)"
+    language: "English"
+    access: "free"
+    description: "Slides, and some videos, of talks on stellarator optimization, plasma turbulence and numerical methods."
+
+  - title: "SIMSOPT"
+    link: "https://github.com/hiddenSymmetries/simsopt"
+    type: "software"
+    topics: ["Stellarators", "Computational methods"]
+    level: "advanced"
+    author: "Hidden Symmetries collaboration"
+    language: "English"
+    access: "free"
+    description: "Open-source framework for stellarator optimization, with tools to define parameter spaces and objective functions and interfaces to physics codes."
