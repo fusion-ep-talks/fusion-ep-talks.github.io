@@ -241,7 +241,7 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-title"><i class="fas fa-language"></i> Brazilian Portuguese / Português Brasileiro</div>
   <div class="lang-translators">
     <span class="translator">
-      <strong>Harumi</strong>
+      <strong>Lilian Yoshida</strong>
       <span class="inst">Institution</span>
       <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Harumi on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
     </span>
