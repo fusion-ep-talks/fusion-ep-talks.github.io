@@ -258,8 +258,8 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Hernán Domingo Ramos</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Hernán Domingo Ramos on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Barcelona Supercomputing Center</span>
+      <a class="li" href="https://www.linkedin.com/in/hernandomingoramos54/" target="_blank" rel="noopener noreferrer" aria-label="Hernán Domingo Ramos on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
     <span class="translator">
       <strong>Jordi Ferre Ortega</strong>
