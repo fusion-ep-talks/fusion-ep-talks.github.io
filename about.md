@@ -196,7 +196,7 @@ The initiative is maintained by an active volunteer team managing speaker invita
   <div class="team-card">
     <div>
       <h4>Katherin Gómez</h4>
-      <div class="role">Web Administration and Social Media</div>
+      <div class="role">Graphic Design and Social Media</div>
       <div class="affiliation">PhD Researcher<br><em>UC3M, Spain</em></div>
     </div>
     <div class="links">
