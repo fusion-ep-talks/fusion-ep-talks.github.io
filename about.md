@@ -275,6 +275,17 @@ To ensure advanced fusion research is accessible across international student ne
 </div>
 
 <div class="lang-block">
+  <div class="lang-title"><i class="fas fa-language"></i> Czech / čeština</div>
+  <div class="lang-translators">
+    <span class="translator">
+      <strong>Oz Ercolino</strong>
+      <span class="inst">Institution</span>
+      <!-- <a class="li" href="https://www.linkedin.com/in/-felixschwarz" target="_blank" rel="noopener noreferrer" aria-label="Felix Schwarz on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+    </span>
+  </div>
+</div>
+
+<div class="lang-block">
   <div class="lang-title"><i class="fas fa-language"></i> Dutch / Nederlands</div>
   <div class="lang-translators">
     <span class="translator">
