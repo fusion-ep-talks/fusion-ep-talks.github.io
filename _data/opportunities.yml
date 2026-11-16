@@ -1,10 +1,123 @@
 # ==============================================================================
 # FUSION EP Talks - Opportunities Board Data
-# Types: "master" | "phd" | "school" | "internship"
-# Deadlines: "YYYY-MM-DD" or "ongoing"
+# File: _data/opportunities.yml
+#
+# HOW TO ADD AN OPPORTUNITY
+#   1. Copy the template for the right type from the TEMPLATES block below.
+#   2. Paste it in the matching section further down (order does not matter:
+#      the page sorts by deadline automatically).
+#   3. Remove the leading "# " from every line and fill in the values.
+#
+# TYPES (the "type" field must be exactly one of these)
+#   "master"      Master's degree programme
+#   "phd"         PhD position
+#   "postdoc"     Postdoctoral position
+#   "school"      Summer school / workshop
+#   "internship"  Internship or internship grant
+#   "job"         Job (industry, labs, etc.)
+#   Summer schools and internships share one filter button on the page,
+#   but keep their own badge.
+#
+# DEADLINE (the "deadline" field accepts exactly three kinds of value)
+#   "YYYY-MM-DD"  A real date, e.g. "2027-03-31". The card moves automatically
+#                 to the "closed" archive after that day (at the next site build).
+#                 Cards with a deadline within 14 days get a "Closing soon" tag.
+#   "ongoing"     Rolling applications. Never expires.
+#   "TBA"         Deadline not announced yet. Never expires, shows "Deadline TBA".
+#   Capitals and extra spaces are ignored ("Ongoing", " tba " also work).
+#   Anything else (typos, empty) still shows the card, with a visible
+#   "Check deadline" warning, so mistakes are easy to spot.
+#   Always wrap the value in quotes.
+#
+# FIELDS
+#   Required : title, type, deadline
+#   Recommended: institution, location, link, description
+#   Optional : funding (hidden if empty), posted
+#   "posted" is internal only (YYYY-MM-DD, date you added the entry). It is
+#   never shown on the card; it is stored as data-posted on the HTML element
+#   in case we want "New" badges or sorting later.
+#   Fields left out or left as "" are simply not displayed.
+#
+# Remember: do not paste job contract details. We only link to the original
+# announcement; the "Official Details & Apply" button leads there.
 # ==============================================================================
 
-# --- Master's Degree Programmes ---
+
+# ==============================================================================
+# TEMPLATES (copy, paste into the right section below, uncomment, fill in)
+# ==============================================================================
+
+# --- Template: Master's degree -------------------------------------------------
+# - title: "Name of the programme"
+#   type: "master"
+#   institution: "University or consortium"
+#   location: "City, Country"
+#   deadline: "2027-03-31"            # "YYYY-MM-DD" | "ongoing" | "TBA"
+#   link: "https://example.org/programme"
+#   description: "One or two sentences about what the programme covers."
+#   funding: "Scholarships available"  # optional
+#   posted: "2026-11-16"               # optional, internal only
+
+# --- Template: PhD position ----------------------------------------------------
+# - title: "PhD Position in <topic>"
+#   type: "phd"
+#   institution: "Institute or university"
+#   location: "City, Country"
+#   deadline: "2027-01-15"            # "YYYY-MM-DD" | "ongoing" | "TBA"
+#   link: "https://example.org/vacancy"
+#   description: "Research topic, group and what the candidate will work on."
+#   funding: "Fully funded, 3 years"   # optional
+#   posted: "2026-11-16"               # optional, internal only
+
+# --- Template: Postdoc position ------------------------------------------------
+# - title: "Postdoctoral Researcher in <topic>"
+#   type: "postdoc"
+#   institution: "Institute or university"
+#   location: "City, Country"
+#   deadline: "2027-02-28"            # "YYYY-MM-DD" | "ongoing" | "TBA"
+#   link: "https://example.org/vacancy"
+#   description: "Research area, group and the main tasks."
+#   funding: ""                        # optional
+#   posted: "2026-11-16"               # optional, internal only
+
+# --- Template: Summer school / workshop ----------------------------------------
+# - title: "Name of the summer school or workshop"
+#   type: "school"
+#   institution: "Organising institution"
+#   location: "City, Country"
+#   deadline: "2027-05-01"            # "YYYY-MM-DD" | "ongoing" | "TBA"
+#   link: "https://example.org/school"
+#   description: "Topics, duration, dates and who it is aimed at."
+#   funding: "Grants for accommodation"  # optional
+#   posted: "2026-11-16"                 # optional, internal only
+
+# --- Template: Internship ------------------------------------------------------
+# - title: "Internship in <topic> / Internship grant name"
+#   type: "internship"
+#   institution: "Host institution or funding body"
+#   location: "City, Country"
+#   deadline: "ongoing"               # "YYYY-MM-DD" | "ongoing" | "TBA"
+#   link: "https://example.org/internship"
+#   description: "What the internship involves and who can apply."
+#   funding: "Stipend or travel grant"   # optional
+#   posted: "2026-11-16"                 # optional, internal only
+
+# --- Template: Job (industry or other) -----------------------------------------
+# - title: "Job title"
+#   type: "job"
+#   institution: "Company or organisation"
+#   location: "City, Country"
+#   deadline: "ongoing"               # "YYYY-MM-DD" | "ongoing" | "TBA"
+#   link: "https://example.org/jobs/123"
+#   description: "Short summary of the role. Details live on the official page."
+#   posted: "2026-11-16"               # optional, internal only
+
+
+# ==============================================================================
+# LIVE ENTRIES
+# ==============================================================================
+
+# --- Master's Degree Programmes (type: "master") --------------------------------
 - title: "European Master in Nuclear Fusion Science and Engineering Physics (FUSION-EP)"
   type: "master"
   institution: "FUSION-EP Consortium (Ghent, Lorraine, UC3M, AMU, Stuttgart, UCM, CTU, INSTN)"
@@ -14,19 +127,16 @@
   description: "Erasmus Mundus Joint Master Degree providing comprehensive training in magnetic confinement, plasma diagnostics, materials, and computational modeling across leading European universities."
   funding: "Erasmus+ scholarships available"
 
-# --- PhD Positions ---
-- title: "PhD Position"
-  type: "phd"
-  institution: "Max Planck Institute for Plasma Physics (IPP)"
-  location: "Greifswald, Germany"
-  deadline: "ongloing"
-  link: "https://www.ipp.mpg.de/careers"
-  description: ""
-  funding: ""
+
+# --- PhD Positions (type: "phd") ------------------------------------------------
+# (none yet: paste the PhD template here)
 
 
+# --- Postdoc Positions (type: "postdoc") ----------------------------------------
+# (none yet: paste the Postdoc template here)
 
-# --- Summer Schools & Internships ---
+
+# --- Summer Schools & Workshops (type: "school") --------------------------------
 - title: "Culham Plasma Physics Summer School (UKAEA)"
   type: "school"
   institution: "UKAEA / Culham Centre for Fusion Energy"
@@ -36,6 +146,8 @@
   description: "Two-week intensive summer school covering fundamentals of plasma physics, tokamaks, spherical tokamaks (MAST-U), and astrophysics with laboratory tours."
   funding: "Subsidized accommodation & registration"
 
+
+# --- Internships & Internship Grants (type: "internship") -----------------------
 - title: "FuseNet Master Student Internship Grants"
   type: "internship"
   institution: "The European Fusion Education Network (FuseNet)"
@@ -44,3 +156,7 @@
   link: "https://fusenet.eu/funds"
   description: "Financial mobility support for European master students conducting thesis research or internships at a fusion research facility outside their home country."
   funding: "Travel & living allowance grant"
+
+
+# --- Jobs & Industry (type: "job") ----------------------------------------------
+# (none yet: paste the Job template here)
