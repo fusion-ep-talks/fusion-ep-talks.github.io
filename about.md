@@ -263,8 +263,8 @@ To ensure advanced fusion research is accessible across international student ne
     </span>
     <span class="translator">
       <strong>Jordi Ferre Ortega</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Jordi Ferre Ortega on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">IRB Barcelona</span>
+      <a class="li" href="https://www.linkedin.com/in/jordi-ferr%C3%A9-ortega-65b67a2aa/" target="_blank" rel="noopener noreferrer" aria-label="Jordi Ferre Ortega on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
     <span class="translator">
       <strong>Laura Puig</strong>
