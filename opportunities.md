@@ -115,9 +115,10 @@ author_profile: false
   .badge-track--job        { background-color: #ede9fe; color: #6d28d9; }
   .badge-track--other      { background-color: #f3f4f6; color: #374151; }
   /* New deadline states */
-  .deadline-tag--soon  { color: #ffffff; background: #b91c1c; }
-  .deadline-tag--tba   { color: #1e40af; background: #dbeafe; }
-  .deadline-tag--check { color: #92400e; background: #fef3c7; }
+  .deadline-tag--soon        { color: #ffffff; background: #b91c1c; }
+  .deadline-tag--orientative { color: #3730a3; background: #e0e7ff; }
+  .deadline-tag--tba         { color: #1e40af; background: #dbeafe; }
+  .deadline-tag--check       { color: #92400e; background: #fef3c7; }
   /* Filter counts */
   .opp-count { font-weight: 500; opacity: 0.75; margin-left: 0.2rem; }
   /* Empty-state message */
@@ -162,16 +163,14 @@ Discover academic and professional pathways in nuclear fusion and plasma physics
  BUILD STEP (outputs nothing by itself, only prepares variables)
  
  Deadline states, decided per entry:
-   date     -> a valid "YYYY-MM-DD"            (hidden into the archive once passed)
-   ongoing  -> "ongoing"                        (always active)
-   tba      -> "TBA"                            (always active, "Deadline TBA" tag)
-   invalid  -> anything else (typo, empty)      (always active, "Check deadline" tag,
-                                                 so mistakes are visible, not silent)
- Values are trimmed and lower-cased first, so "Ongoing", " tba " etc. also work.
+   0 = date        -> valid "YYYY-MM-DD" (hidden into archive once passed)
+   1 = orientative -> approximate text like "Early June", "Mid-February 2027"
+                      (optional `sort_date: YYYY-MM-DD` controls sort order)
+   2 = ongoing     -> "ongoing" (always active)
+   3 = tba         -> "TBA" (always active, "Deadline TBA" tag)
+   4 = empty       -> blank/nil (always active, "Check deadline" tag)
  
- Sorting: dates (soonest first) -> ongoing -> TBA -> invalid.
- The first character of each sort row stores the state:
-   0 = date, 1 = ongoing, 2 = tba, 3 = invalid
+ Sorting: exact dates (soonest first) -> orientative -> ongoing -> TBA -> empty.
 ==============================================================================
 {% endcomment %}
 {%- assign today_int = site.time | date: "%Y%m%d" | plus: 0 -%}
@@ -180,16 +179,25 @@ Discover academic and professional pathways in nuclear fusion and plasma physics
  
 {%- assign sort_rows = "" | split: "" -%}
 {%- for item in site.data.opportunities -%}
-  {%- assign dl = item.deadline | append: "" | downcase | strip -%}
+  {%- assign dl_raw = item.deadline | append: "" | strip -%}
+  {%- assign dl = dl_raw | downcase -%}
   {%- assign dl_int = dl | date: "%Y%m%d" | plus: 0 -%}
-  {%- if dl == "ongoing" -%}
-    {%- assign key = "100000000" -%}
-  {%- elsif dl == "tba" -%}
+  {%- if dl == "" -%}
+    {%- assign key = "499999999" -%}
+  {%- elsif dl == "ongoing" -%}
     {%- assign key = "200000000" -%}
-  {%- elsif dl.size == 10 and dl_int > 19000000 -%}
+  {%- elsif dl == "tba" -%}
+    {%- assign key = "300000000" -%}
+  {%- elsif dl.size == 10 and dl contains "-" and dl_int > 19000000 -%}
     {%- assign key = "0" | append: dl_int -%}
   {%- else -%}
-    {%- assign key = "300000000" -%}
+    {%- assign sd = item.sort_date | append: "" | strip -%}
+    {%- assign sd_int = sd | date: "%Y%m%d" | plus: 0 -%}
+    {%- if sd.size == 10 and sd contains "-" and sd_int > 19000000 -%}
+      {%- assign key = "1" | append: sd_int -%}
+    {%- else -%}
+      {%- assign key = "199999999" -%}
+    {%- endif -%}
   {%- endif -%}
   {%- assign idx_pad = forloop.index0 | prepend: "0000" | slice: -4, 4 -%}
   {%- assign row = key | append: "-" | append: idx_pad | append: "~" | append: forloop.index0 -%}
@@ -274,10 +282,12 @@ Discover academic and professional pathways in nuclear fusion and plasma physics
     <div style="margin-bottom: 1rem;">
       {%- case group -%}
         {%- when "1" -%}
-          <span class="deadline-tag deadline-tag--ongoing">📅 Rolling / Ongoing</span>
+          <span class="deadline-tag deadline-tag--orientative">🗓️ Expected: {{ dl }}</span>
         {%- when "2" -%}
-          <span class="deadline-tag deadline-tag--tba">📅 Deadline TBA</span>
+          <span class="deadline-tag deadline-tag--ongoing">📅 Rolling / Ongoing</span>
         {%- when "3" -%}
+          <span class="deadline-tag deadline-tag--tba">📅 Deadline TBA</span>
+        {%- when "4" -%}
           <span class="deadline-tag deadline-tag--check">⚠️ Check deadline on the official page</span>
         {%- else -%}
           {%- if days_left <= soon_days -%}
@@ -377,4 +387,3 @@ Discover academic and professional pathways in nuclear fusion and plasma physics
     });
   });
 </script>
- 
