@@ -246,9 +246,9 @@ To ensure advanced fusion research is accessible across international student ne
       <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Harumi on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
     </span>
     <span class="translator">
-      <strong>Julia Richieri</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Julia Richieri on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <strong>Júlia Rodriguez Richieri</strong>
+      <span class="inst">Fusion-EP</span>
+      <a class="li" href="https://www.linkedin.com/in/jrichieri/en" target="_blank" rel="noopener noreferrer" aria-label="Julia Richieri on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
 </div>
