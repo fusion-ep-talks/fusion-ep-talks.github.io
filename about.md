@@ -231,8 +231,8 @@ To ensure advanced fusion research is accessible across international student ne
     </span>
     <span class="translator">
       <strong>Rimae Lamara Mhend</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Rimae Lamara Mhend on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Fusion-EP Alumni</span>
+      <a class="li" href="https://www.linkedin.com/in/rimaelamaramhend/" target="_blank" rel="noopener noreferrer" aria-label="Rimae Lamara Mhend on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
 </div>
@@ -242,12 +242,12 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Lilian Yoshida</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Harumi on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Fusion-EP Alumni</span>
+      <a class="li" href="https://www.linkedin.com/in/lilian-yoshida/" target="_blank" rel="noopener noreferrer" aria-label="Harumi on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
     <span class="translator">
       <strong>Júlia Rodriguez Richieri</strong>
-      <span class="inst">Fusion-EP</span>
+      <span class="inst">Fusion-EP Masters Student</span>
       <a class="li" href="https://www.linkedin.com/in/jrichieri/en" target="_blank" rel="noopener noreferrer" aria-label="Julia Richieri on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
@@ -268,7 +268,7 @@ To ensure advanced fusion research is accessible across international student ne
     </span>
     <span class="translator">
       <strong>Laura Puig</strong>
-      <span class="inst">Institution</span>
+      <span class="inst">Fusion-EP Masters Student</span>
       <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Laura Puig on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
     </span>
   </div>
@@ -279,8 +279,8 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Oz Ercolino</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="https://www.linkedin.com/in/-felixschwarz" target="_blank" rel="noopener noreferrer" aria-label="Felix Schwarz on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">University of Coventry</span>
+      <a class="li" href="https://www.linkedin.com/in/oz-ercolino-688389314/" target="_blank" rel="noopener noreferrer" aria-label="Felix Schwarz on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
 </div>
@@ -290,8 +290,8 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Wout Creyf</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Wout Creyf on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">OIP Space Instruments</span>
+      <a class="li" href="https://www.linkedin.com/in/wout-creyf/" target="_blank" rel="noopener noreferrer" aria-label="Wout Creyf on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
     <span class="translator">
       <strong>Alexia De Leener</strong>
@@ -306,8 +306,8 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Paula Cárdenas</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Paula Cárdenas on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">École Polytechnique</span>
+      <a class="li" href="https://www.linkedin.com/in/paula-c%C3%A1rdenas-ayala-a36894154/" target="_blank" rel="noopener noreferrer" aria-label="Paula Cárdenas on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
     <span class="translator">
       <strong>James Conlon</strong>
@@ -349,12 +349,12 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Simone Cominelli</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Simone Cominelli on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Fusion-EP Alumni</span>
+      <a class="li" href="https://www.linkedin.com/in/simone-cominelli/" target="_blank" rel="noopener noreferrer" aria-label="Simone Cominelli on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
     <span class="translator">
       <strong>Iside Riuzzi</strong>
-      <span class="inst">Institution</span>
+      <span class="inst">Fusion-EP Masters Student</span>
       <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Iside Riuzzi on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
     </span>
   </div>
@@ -376,8 +376,8 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Sara Gjorgievska</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Sara Gjorgievska on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Fusion-EP Alumni</span>
+      <a class="li" href="https://www.linkedin.com/in/sara-gjorgievska-5141a0202/" target="_blank" rel="noopener noreferrer" aria-label="Sara Gjorgievska on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
 </div>
@@ -387,13 +387,13 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Kaiyaun Hou</strong>
-      <span class="inst">Institution</span>
+      <span class="inst">Fusion-EP Masters Student</span>
       <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Kaiyaun Hou on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
     </span>
     <span class="translator">
       <strong>Peizheng Zhang</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Peizheng Zhang on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Swiss Plasma Center at EPFL</span>
+      <a class="li" href="https://www.linkedin.com/in/peizheng12345/" target="_blank" rel="noopener noreferrer" aria-label="Peizheng Zhang on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
 </div>
@@ -414,8 +414,8 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Sara Gjorgievska</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Sara Gjorgievska on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Fusion-EP Alumni</span>
+      <a class="li" href="https://www.linkedin.com/in/sara-gjorgievska-5141a0202/" target="_blank" rel="noopener noreferrer" aria-label="Sara Gjorgievska on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
 </div>
@@ -425,23 +425,23 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Paula Cárdenas</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Paula Cárdenas on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">École Polytechnique</span>
+      <a class="li" href="https://www.linkedin.com/in/paula-c%C3%A1rdenas-ayala-a36894154/" target="_blank" rel="noopener noreferrer" aria-label="Paula Cárdenas on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
     <span class="translator">
-      <strong>Jose Frontado</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Jose Frontado on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <strong>José Frontado Aragón</strong>
+      <span class="inst">Fusion-EP Masters Student</span>
+      <a class="li" href="https://www.linkedin.com/in/josefrontadoaragon/" target="_blank" rel="noopener noreferrer" aria-label="Jose Frontado on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
     <span class="translator">
       <strong>Gabriela María García Pérez</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Gabriela María García Pérez on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Fusion-EP Masters Student</span>
+      <a class="li" href="https://www.linkedin.com/in/gabrielam-garcia/" target="_blank" rel="noopener noreferrer" aria-label="Gabriela María García Pérez on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
     <span class="translator">
-      <strong>Steven Marin</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Steven Marin on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <strong>Steven Marín</strong>
+      <span class="inst">Fusion-EP Alumni</span>
+      <a class="li" href="https://www.linkedin.com/in/marins168/" target="_blank" rel="noopener noreferrer" aria-label="Steven Marin on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
 </div>
