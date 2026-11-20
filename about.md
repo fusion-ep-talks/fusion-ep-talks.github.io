@@ -295,7 +295,7 @@ To ensure advanced fusion research is accessible across international student ne
     </span>
     <span class="translator">
       <strong>Alexia De Leener</strong>
-      <span class="inst">Fusion EP</span>
+      <span class="inst">Fusion-EP Masters Student</span>
       <a class="li" href="https://www.linkedin.com/in/alexia-de-leener-5109b7291" target="_blank" rel="noopener noreferrer" aria-label="Alexia De Leener on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> 
     </span>
   </div>
@@ -311,13 +311,13 @@ To ensure advanced fusion research is accessible across international student ne
     </span>
     <span class="translator">
       <strong>James Conlon</strong>
-      <span class="inst">Institution</span>
+      <span class="inst">Fusion-EP Masters Student</span>
       <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="James Conlon on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
     </span>
     <span class="translator">
       <strong>Necissa Fatna Berkouk</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Necissa Fatna Berkouk on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <span class="inst">Fusion-EP Masters Student</span>
+      <a class="li" href="https://www.linkedin.com/in/necissa-fatna-berkouk/" target="_blank" rel="noopener noreferrer" aria-label="Necissa Fatna Berkouk on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
 </div>
@@ -327,7 +327,7 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-translators">
     <span class="translator">
       <strong>Felix Schwarz</strong>
-      <span class="inst">Fusion EP</span>
+      <span class="inst">Fusion-EP Masters Student</span>
       <a class="li" href="https://www.linkedin.com/in/-felixschwarz" target="_blank" rel="noopener noreferrer" aria-label="Felix Schwarz on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> 
     </span>
   </div>
@@ -337,9 +337,9 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-title"><i class="fas fa-language"></i> Hindi / हिंदी</div>
   <div class="lang-translators">
     <span class="translator">
-      <strong>Gaurav</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Gaurav on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <strong>Gaurav Shere</strong>
+      <span class="inst">Fusion-EP Alumni</span>
+      <a class="li" href="https://www.linkedin.com/in/gaurav-shere-4306a7261/" target="_blank" rel="noopener noreferrer" aria-label="Gaurav on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
 </div>
@@ -402,9 +402,9 @@ To ensure advanced fusion research is accessible across international student ne
   <div class="lang-title"><i class="fas fa-language"></i> Marathi / मराठी</div>
   <div class="lang-translators">
     <span class="translator">
-      <strong>Gaurav</strong>
-      <span class="inst">Institution</span>
-      <!-- <a class="li" href="LINKEDIN-URL" target="_blank" rel="noopener noreferrer" aria-label="Gaurav on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> -->
+      <strong>Gaurav Shere</strong>
+      <span class="inst">Fusion-EP Alumni</span>
+      <a class="li" href="https://www.linkedin.com/in/gaurav-shere-4306a7261/" target="_blank" rel="noopener noreferrer" aria-label="Gaurav on LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
     </span>
   </div>
 </div>
