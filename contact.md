@@ -201,14 +201,16 @@ Follow our channels for slide releases, full-length recording uploads, and speak
       <div class="desc">Full seminar recordings</div>
     </div>
   </a>
-
-  <a href="https://www.facebook.com/fusioneptalks" target="_blank" rel="noopener noreferrer" class="social-card">
+  
+```
+ <a href="https://www.facebook.com/fusioneptalks" target="_blank" rel="noopener noreferrer" class="social-card">
     <i class="fab fa-facebook"></i>
     <div>
       <div class="name">Facebook</div>
       <div class="desc">Community updates</div>
     </div>
   </a>
+```
 
   <a href="#" class="social-card">
     <i class="fab fa-x-twitter"></i>
@@ -218,11 +220,11 @@ Follow our channels for slide releases, full-length recording uploads, and speak
     </div>
   </a>
 
-  <a href="#" class="social-card">
+  <a href="https://www.instagram.com/fusioneptalks/" target="_blank" rel="noopener noreferrer" class="social-card">
     <i class="fab fa-instagram"></i>
     <div>
       <div class="name">Instagram</div>
-      <div class="desc">Coming soon</div>
+      <div class="desc">Updates and short videos</div>
     </div>
   </a>
 
