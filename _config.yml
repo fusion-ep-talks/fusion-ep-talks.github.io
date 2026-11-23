@@ -107,6 +107,7 @@ social:
     - "https://www.linkedin.com/company/fusion-ep-talks/"
     - "https://www.youtube.com/@fusioneptalks"
     - "https://www.facebook.com/fusioneptalks"
+    - "https://www.instagram.com/fusioneptalks/"
 
 # Analytics
 analytics:
@@ -137,12 +138,12 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-square-facebook"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    #- label: "GitHub"
+    #  icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/fusioneptalks/"
 
 # Site Footer
 footer:
@@ -168,7 +169,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "#" # Replace with official URL once live
+      url: "https://www.instagram.com/fusioneptalks/" # Replace with official URL once live
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@fusioneptalks"
